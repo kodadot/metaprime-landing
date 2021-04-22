@@ -1,13 +1,15 @@
 <template>
-  <section class="section">
-    <div class="columns ">
+  <section class="hero is-halfheight is-dark">
+    <div class="hero-body">
+      <div class="">
+    <div class="columns">
       <div class="column is-offset-3 is-3">
         <card
           title="Community-First"
         >
           Community-driven & community-owned.
           <a href="https://purpose-economy.org/en/whats-steward-ownership/">
-          Steward ownership model inside</a>
+          Steward ownership model inside</a>. Minding Exit to community model.
         </card>
       </div>
       <div class="column is-3">
@@ -23,25 +25,59 @@
     <div class="columns">
       <div class="column is-offset-3 is-3">
         <card
-          title="interoperable NFT standards"
+          title="Interoperable NFT standards"
         >
-          Favour interoperable NFT standards
+          Favour interoperable & composable NFT standards
+        </card>
+      </div>
+      <div class="column is-3">
+        <card
+          title="Fractal Metaverses"
+        >
+          n-dimensional on-chain alchemy
+        </card>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-offset-3 is-3">
+        <card
+          title="UX-first & DX-first"
+        >
+          Our mission is to provide very finest experience
+          for developer experience and user experience.
+          Prioritizing experience of usage.
         </card>
       </div>
       <div class="column is-3">
         <card
           title="native NFT experimental ecosystem"
         >
-          Playground for development open end knowledge
+          Playground for development open end knowledge.
+          Allow users to have sufficient flexibility,
+          funding and speed of delivery in building what
+          they want thanks to MetaPrime NFT Primitives.
         </card>
       </div>
     </div>
-      #
-      - we want to be experimental NFT landscape for low velocity appraisal assets
+    <div class="columns">
+      <div class="column is-offset-3 is-3">
+        <card
+          title="Twitter"
+        >
+          <a href="https://twitter.com/metaprime_net">@metaprime_net</a>
+        </card>
 
-      why metaprime
-
-      roadmap coming soonp
+      </div>
+      <div class="column is-3">
+        <card
+          title="Roadmap"
+        >
+          Comming soon
+        </card>
+      </div>
+    </div>
+    </div>
+    </div>
     </div>
   </section>
 </template>
