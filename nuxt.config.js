@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'metaprime-landing',
+    title: 'metaprime.network',
     htmlAttrs: {
       lang: 'en'
     },
