@@ -6,7 +6,7 @@
     <div class="column is-offset-10 is-12">
       <br>
       <div id="revue-embed">
-        <form action="https://www.getrevue.co/profile/metaprime/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+        <form action="https://www.getrevue.co/profile/metaprimenetwork/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
         <div class="form">
           <b-field label="e-mail address" label-position="on-border">
           <b-input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email" expanded></b-input>
