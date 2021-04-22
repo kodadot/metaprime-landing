@@ -1,5 +1,4 @@
 <template>
-
   <section class="hero is-black is-fullheight">
     <div class="hero-body">
       <div class="">
