@@ -34,7 +34,7 @@
         <card
           title="Fractal Metaverses"
         >
-          n-dimensional on-chain alchemy
+          Netscape of NFTs - portal to the universe of non-fungible tokens. N-dimensional on-chain alchemy.
         </card>
       </div>
     </div>
@@ -50,7 +50,7 @@
       </div>
       <div class="column is-3">
         <card
-          title="native NFT experimental ecosystem"
+          title="Native NFT experimental ecosystem"
         >
           Playground for development open end knowledge.
           Allow users to have sufficient flexibility,
@@ -62,17 +62,16 @@
     <div class="columns">
       <div class="column is-offset-3 is-3">
         <card
-          title="Twitter"
-        >
-          <a href="https://twitter.com/metaprime_net">@metaprime_net</a>
-        </card>
-
-      </div>
-      <div class="column is-3">
-        <card
           title="Roadmap"
         >
           Comming soon
+        </card>
+      </div>
+      <div class="column is-3">
+       <card
+          title="Twitter"
+        >
+          <a href="https://twitter.com/metaprime_net">@metaprime_net</a>
         </card>
       </div>
     </div>
@@ -94,8 +93,3 @@ export default {
   }
 }
 </script>
-<style scoped>
-.section {
-  background-color: #363636;
-}
-</style>

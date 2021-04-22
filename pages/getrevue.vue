@@ -1,10 +1,11 @@
 <template>
   <section class="hero is-light is-halfheight">
-  <div class="hero-body">
-  <div class="">
-  <div class="columns">
-    <div class="column is-offset-10 is-12">
-      <br>
+  <div class="hero-body has-text-centered">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-offset-3 is-6">
+
+  <div class="box has-background-light">
       <div id="revue-embed">
         <form action="https://www.getrevue.co/profile/metaprimenetwork/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
         <div class="form">
@@ -20,11 +21,12 @@
           </div>
         </form>
       </div>
+      </div>
     </div>
   </div>
 
   <div class="columns">
-    <div class="column is-offset-10">
+    <div class="column">
       <iframe
         src="https://nft.kodadot.xyz/rmrk/detail/7152905-0E76E3AC15B4C1FA1E-TRI-SIERPINSKI_TETRAHEDRON-0000000000000001"
         title="Check this cool NFT on #KusamaNetwork #KodaDot"

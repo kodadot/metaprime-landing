@@ -1,22 +1,18 @@
 <template>
   <div class="column">
-    <div class="card">
+    <div class="card has-text-centered">
       <header class="card-header">
-        <p class="card-header-title has-text-grey">
+        <p class="card-header-title has-text-grey-darker has-background-light has-text-centered">
           {{ title }}
         </p>
       </header>
-      <!-- <div class="card-content">
-        <div class="content has-text-centered">
-          <b-icon
-            :icon="icon"
-            size="is-large"
-            type="is-primary"
-          />
+      <!-- <div class="card-content has-text-grey-light has-background-dark">
+        <div class="content has-text-centered has-text-grey-light has-background-dark">
+          <slot />
         </div>
       </div> -->
       <footer class="card-footer">
-        <div class="card-footer-item">
+        <div class="card-footer-item has-text-grey-light has-background-dark">
           <span>
             <slot />
           </span>
