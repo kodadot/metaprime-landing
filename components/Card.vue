@@ -6,7 +6,7 @@
           {{ title }}
         </p>
       </header>
-      <div class="card-content">
+      <!-- <div class="card-content">
         <div class="content has-text-centered">
           <b-icon
             :icon="icon"
@@ -14,7 +14,7 @@
             type="is-primary"
           />
         </div>
-      </div>
+      </div> -->
       <footer class="card-footer">
         <div class="card-footer-item">
           <span>

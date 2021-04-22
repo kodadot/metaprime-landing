@@ -6,9 +6,13 @@
         <p class="title">
           <img src="@/assets/metaprime-whitefg.png" alt="metaprime - experimental nft landscape">
         </p>
+        <br>
         <p class="subtitle">
-          Space for illiquid goods and low velocity appraisal assets
+          <b-notification :closable="false" class="is-dark">
+            Experimental NFT-focused infrastructure, to provide streamline signals for highly illiquid goods with low-velocity appraisal
+          </b-notification>
         </p>
+
       </div>
     </div>
   </section>

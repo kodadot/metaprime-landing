@@ -49,32 +49,25 @@
         <nuxt />
       </div>
     </section> -->
-    <hero />
+    <Hero />
+    <Manifesto />
+    <Getrevue />
   </div>
 </template>
 
 <script>
-import index from '@/pages/index.vue';
+import Hero from '@/pages/hero.vue';
+import Manifesto from '~/pages/manifesto.vue';
+import Getrevue from '~/pages/getrevue.vue';
 
-import hero from '@/pages/hero.vue';
 export default {
-  components: { hero },
+  components: {
+    Hero,
+    Manifesto,
+    Getrevue  },
 
   data () {
-    return {
-      items: [
-        {
-          title: 'Home',
-          icon: 'home',
-          to: { name: 'index' }
-        },
-        {
-          title: 'Inspire',
-          icon: 'lightbulb',
-          to: { name: 'inspire' }
-        }
-      ]
-    }
+    return {}
   }
 }
 </script>
