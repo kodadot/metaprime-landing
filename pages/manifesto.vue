@@ -1,9 +1,9 @@
 <template>
   <section class="hero is-halfheight is-dark">
-    <div class="hero-body">
+    <div class="hero-body has-text-centered">
       <div class="">
     <div class="columns">
-      <div class="column is-offset-3 is-3">
+      <div class="column is-offset-4 is-2">
         <card
           title="Community-First"
         >
@@ -12,25 +12,25 @@
           Steward ownership model inside</a>. Minding Exit to community model.
         </card>
       </div>
-      <div class="column is-3">
+      <div class="column is-2 is-offset-1">
         <card
           title="NFT-focused Infrastructure"
           icon="arrange-bring-to-front"
         >
-          Provide streamline signals for highly illiquid goods with low-velocity appraisal
+          Provide streamlined signals for highly illiquid goods with a low-velocity appraisal
         </card>
       </div>
     </div>
 
     <div class="columns">
-      <div class="column is-offset-3 is-3">
+      <div class="column is-offset-4 is-2">
         <card
           title="Interoperable NFT standards"
         >
           Favour interoperable & composable NFT standards
         </card>
       </div>
-      <div class="column is-3">
+      <div class="column is-2 is-offset-1">
         <card
           title="Fractal Metaverses"
         >
@@ -39,7 +39,7 @@
       </div>
     </div>
     <div class="columns">
-      <div class="column is-offset-3 is-3">
+      <div class="column is-offset-4 is-2">
         <card
           title="UX-first & DX-first"
         >
@@ -48,7 +48,7 @@
           Prioritizing experience of usage.
         </card>
       </div>
-      <div class="column is-3">
+      <div class="column is-2 is-offset-1">
         <card
           title="Native NFT experimental ecosystem"
         >
@@ -60,16 +60,16 @@
       </div>
     </div>
     <div class="columns">
-      <div class="column is-offset-3 is-3">
+      <div class="column is-offset-4 is-2">
         <card
-          title="Roadmap"
+          title="NFT explorer"
         >
-          Comming soon
+          <a href="https://twitter.com/kodadot">@kodadot</a>
         </card>
       </div>
-      <div class="column is-3">
+      <div class="column is-2 is-offset-1">
        <card
-          title="Twitter"
+          title="Parachain"
         >
           <a href="https://twitter.com/metaprime_net">@metaprime_net</a>
         </card>
@@ -84,12 +84,14 @@
 <script>
 // import Card from '~/components/Card'
 import Card from '~/components/Card.vue'
+import Columns from '@/components/Columns.vue';
 
 export default {
   name: 'index',
 
   components: {
-    Card
+    Card,
+    Columns
   }
 }
 </script>

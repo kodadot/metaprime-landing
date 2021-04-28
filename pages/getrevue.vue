@@ -3,7 +3,7 @@
   <div class="hero-body has-text-centered">
   <div class="container">
     <div class="columns">
-      <div class="column is-offset-3 is-6">
+      <div class="column is-offset-4 is-5">
 
   <div class="box has-background-light">
       <div id="revue-embed">
@@ -26,7 +26,7 @@
   </div>
 
   <div class="columns">
-    <div class="column">
+    <div class="column is-offset-4 is-5">
       <iframe
         src="https://nft.kodadot.xyz/rmrk/detail/7152905-0E76E3AC15B4C1FA1E-TRI-SIERPINSKI_TETRAHEDRON-0000000000000001"
         title="Check this cool NFT on #KusamaNetwork #KodaDot"

@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'metaprime.network',
+    title: 'metaprime.network - experimental NFT landscape',
     htmlAttrs: {
       lang: 'en'
     },
