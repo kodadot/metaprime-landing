@@ -84,14 +84,12 @@
 <script>
 // import Card from '~/components/Card'
 import Card from '~/components/Card.vue'
-import Columns from '@/components/Columns.vue';
 
 export default {
   name: 'index',
 
   components: {
-    Card,
-    Columns
+    Card
   }
 }
 </script>
