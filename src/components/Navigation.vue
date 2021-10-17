@@ -47,7 +47,7 @@
             hover:text-primary
           "
         >
-          <span class="block">Tokenmonics</span>
+          <span class="block">Tokenomics</span>
         </a>
         <a
           href="/docs"
