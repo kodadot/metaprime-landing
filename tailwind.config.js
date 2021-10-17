@@ -87,12 +87,7 @@ module.exports = {
     backgroundImage: (theme) => ({
       ...theme("colors"),
       'lines': "url('/assets/backgrounds/lines.png')",
-      // gradient1: `linear-gradient(to top, ${theme("colors.white")}, ${theme(
-      //   "colors.primary.light"
-      // )})`,
-      // gradient2: `linear-gradient(to bottom, rgba(242, 244, 250, 0), ${theme(
-      //   "colors.primary.light"
-      // )})`,
+      'lines-secondary': "url('/assets/backgrounds/lines-secondary.png')"
     }),
     outline: {
       // dashed: ["1px dashed white", "1px"],

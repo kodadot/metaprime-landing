@@ -3,13 +3,12 @@ import BaseHead from './BaseHead.astro'
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
 
-const {title, description} = Astro.props
+const {title} = Astro.props
 ---
 <html lang="en">
   <head>
     <BaseHead
       title={title}
-      description={description}
     />
   </head>
   <body class="font-primary bg-dark text-white">

@@ -1,24 +1,25 @@
 <template>
-  <!-- Section 1 -->
   <section class="relative py-3 bg-dark">
-    <div class="container flex items-center justify-between h-20 px-8 mx-auto">
-      <a
-        href="/"
-        class="
-          relative
-          z-10
-          flex
-          items-center
-          w-auto
-          text-2xl
-          font-extrabold
-          leading-none
-          select-none
-        "
-      >
-        <Logo />
-      </a>
-
+    <div class="container flex items-center justify-between h-20 mx-auto">
+      <h1>
+        <a
+          href="/"
+          class="
+            relative
+            z-10
+            flex
+            items-center
+            w-auto
+            text-2xl
+            font-extrabold
+            leading-none
+            select-none
+          "
+          aria-label="Metaprime"
+        >
+          <Logo />
+        </a>
+      </h1>
       <nav
         class="
           items-center
@@ -91,7 +92,6 @@
         </a>
       </nav>
 
-      <!-- Mobile Button -->
       <div class="flex items-center justify-center h-full text-white md:hidden">
         <svg
           class="w-6 h-6"
@@ -123,6 +123,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" scoped>
-</style>
