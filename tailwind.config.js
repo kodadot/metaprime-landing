@@ -1,0 +1,107 @@
+module.exports = {
+  mode: "jit",
+  purge: ["./public/**/*.html", "./src/**/*.{astro,js,jsx,svelte,ts,tsx,vue}"],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {
+      colors: {
+        gray: {
+          DEFAULT: "#e5e5e5"
+          // 100: "#ebebf0",
+          // 200: "#d8d8dc",
+          // 300: "#bcbcc0",
+          // 400: "#aeaeb2",
+          // 500: "#8e8e93",
+          // 600: "#6c6c70",
+          // 700: "#4a4a4f",
+        },
+        dark: "#141414",
+        primary: "#6AFF0F",
+        secondary: {
+          DEFAULT: "#2AF6FF",
+          light: "#13EEC7"
+        }
+      },
+      spacing: {
+
+      },
+      fontSize: {
+
+      },
+      lineHeight: {
+
+      },
+      borderRadius: {
+      },
+      height: {
+        // 22: "5.5rem",
+      },
+      screens: {
+
+      },
+      minWidth: {
+      },
+      zIndex: {
+        "-10": "-10",
+      },
+    },
+    fontFamily: {
+      primary: ["Montserrat", "sans-serif"],
+      secondary: ['"Work Sans"', "sans-serif"]
+    },
+    boxShadow: {
+      // DEFAULT: "0 4px 10px 0 rgba(34, 65, 149, 0.06)",
+    },
+    backgroundColor: (theme) => ({
+      ...theme("colors"),
+      dark: theme('colors.dark')
+      // primary: theme("colors.primary"),
+      // secondary: theme("colors.secondary"),
+      // light: theme("colors.primary.light"),
+      // overlay: "rgba(34, 65, 149, 0.1)",
+    }),
+    borderColor: (theme) => ({
+      ...theme("colors"),
+      // primary: theme("colors.primary"),
+      // secondary: theme("colors.secondary"),
+      // light: theme("colors.primary.light"),
+    }),
+    textColor: (theme) => ({
+      ...theme("colors"),
+      // default: theme("colors.gray.700"),
+      // primary: theme("colors.primary"),
+      // secondary: theme("colors.secondary"),
+      // tertiary: theme("colors.blue"),
+      // light: theme("colors.primary.light"),
+    }),
+    placeholderColor: (theme) => ({
+      // DEFAULT: theme("colors.gray.400"),
+      // primary: theme("colors.primary"),
+    }),
+    fill: (theme) => ({
+      // ...theme("colors"),
+      // primary: theme("colors.primary"),
+      // light: theme("colors.white"),
+      // gray: theme("colors.gray.500"),
+    }),
+    backgroundImage: (theme) => ({
+      ...theme("colors"),
+      'lines': "url('/assets/backgrounds/lines.png')",
+      // gradient1: `linear-gradient(to top, ${theme("colors.white")}, ${theme(
+      //   "colors.primary.light"
+      // )})`,
+      // gradient2: `linear-gradient(to bottom, rgba(242, 244, 250, 0), ${theme(
+      //   "colors.primary.light"
+      // )})`,
+    }),
+    outline: {
+      // dashed: ["1px dashed white", "1px"],
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  corePlugins: {
+  },
+  plugins: []
+};

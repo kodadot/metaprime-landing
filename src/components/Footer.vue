@@ -1,0 +1,606 @@
+<template>
+  <footer class="w-full bg-gray-900">
+    <div class="container mx-auto">
+      <div
+        class="
+          box-border
+          flex flex-wrap
+          pt-20
+          pb-0
+          text-base
+          leading-tight
+          text-gray-500
+          md:pb-12
+        "
+      >
+        <div
+          width="6,3"
+          class="flex-initial w-1/2 px-2 pb-12 leading-tight md:w-1/4"
+        >
+          <div class="box-border text-base text-gray-500">
+            <h2
+              class="
+                mb-8
+                font-sans
+                text-xl
+                font-bold
+                tracking-wide
+                text-gray-100
+                md:text-2xl
+              "
+            >
+              Developers
+            </h2>
+            <ul class="p-0 m-0 text-base leading-tight list-none">
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >Guide</a
+                >
+              </li>
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >Github</a
+                >
+              </li>
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >Collators</a
+                >
+              </li>
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >Grants</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          width="6,3"
+          class="flex-initial w-1/2 px-2 pb-12 leading-tight md:w-1/4"
+        >
+          <div class="box-border text-base text-gray-500">
+            <h2
+              class="
+                mb-8
+                font-sans
+                text-xl
+                font-bold
+                tracking-wide
+                text-gray-100
+                md:text-2xl
+              "
+            >
+              Community
+            </h2>
+            <ul class="p-0 m-0 text-base leading-tight list-none">
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >Community Docs</a
+                >
+              </li>
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >Ambassador Program</a
+                >
+              </li>
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >Blog</a
+                >
+              </li>
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >Brand Assets</a
+                >
+              </li>
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >Technology</a
+                >
+              </li>
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >Security</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex-initial w-1/2 px-2 pb-12 leading-tight md:w-1/4">
+          <div class="box-border text-base text-gray-500">
+            <h2
+              class="
+                mb-8
+                font-sans
+                text-xl
+                font-bold
+                tracking-wide
+                text-gray-100
+                md:text-2xl
+              "
+            >
+              Social
+            </h2>
+            <ul class="p-0 m-0 text-base leading-tight list-none">
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >Twitter</a
+                >
+              </li>
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >Discord</a
+                >
+              </li>
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >Telegram</a
+                >
+              </li>
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >Youtube</a
+                >
+              </li>
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      <div
+          width="6,3"
+          class="flex-initial w-1/2 px-2 pb-12 leading-tight md:w-1/4"
+        >
+          <div class="box-border text-base text-gray-500">
+            <h2
+              class="
+                mb-8
+                font-sans
+                text-xl
+                font-bold
+                tracking-wide
+                text-gray-100
+                md:text-2xl
+              "
+            >
+              Info
+            </h2>
+            <ul class="p-0 m-0 text-base leading-tight list-none">
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >Contact</a
+                >
+              </li>
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >FAQ</a
+                >
+              </li>
+              <li
+                class="
+                  box-border
+                  py-2
+                  text-sm
+                  font-normal
+                  text-left text-gray-500
+                  md:text-base
+                  md:mb-1
+                "
+              >
+                <a
+                  href="#_"
+                  class="
+                    text-base
+                    leading-tight
+                    no-underline
+                    bg-transparent
+                    cursor-pointer
+                    hover:text-gray-400
+                  "
+                  >Careers | Hiring!</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="
+          flex flex-col
+          items-center
+          w-full
+          py-12
+          text-xs
+          leading-none
+          text-gray-500
+          border-t border-gray-800
+          lg:flex-row
+        "
+      >
+        <p class="block pr-5
+                mr-5 text-base font-semibold text-gray-500 border-r border-gray-700">
+          © 2021 Metaprime
+        </p>
+        <ul
+          class="
+            flex
+            my-6
+            text-sm text-gray-500
+            list-none
+            lg:flex-grow-0 lg:flex-shrink-0
+            lg:my-0
+          "
+        >
+          <li class="box-border block font-semibold text-left">
+            <a
+              href="#_"
+              class="
+                pr-5
+                mr-5
+                text-gray-500
+                no-underline
+                bg-transparent
+                border-r border-gray-700
+                cursor-pointer
+              "
+              >Privacy policy</a
+            >
+          </li>
+          <li class="box-border block font-semibold text-left">
+            <a
+              href="#_"
+              class="
+                pr-5
+                mr-5
+                text-gray-500
+                no-underline
+                bg-transparent
+                cursor-pointer
+              "
+              >Terms and Conditions</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</template>
+
+<script>
+export default {
+  setup() {
+    return {};
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+</style>

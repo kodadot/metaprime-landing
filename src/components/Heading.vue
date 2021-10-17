@@ -1,15 +1,19 @@
 <template>
-  <div class="">
-    <nuxt />
+  <div>
+
   </div>
 </template>
 
 <script>
-
 export default {
-  components: {},
-  data () {
+  setup () {
+
+
     return {}
   }
 }
 </script>
+
+<style lang="scss" scoped>
+
+</style>
