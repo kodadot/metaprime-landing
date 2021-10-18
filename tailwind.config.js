@@ -18,8 +18,8 @@ module.exports = {
         dark: "#141414",
         primary: "#6AFF0F",
         secondary: {
-          DEFAULT: "#2AF6FF",
-          light: "#13EEC7"
+          DEFAULT: "#13EEC7",
+          light: "#2AF6FF"
         }
       },
       spacing: {

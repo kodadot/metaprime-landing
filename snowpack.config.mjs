@@ -3,10 +3,7 @@ export default {
     'snowpack-vue-svg-plugin'
   ],
   alias: {
-    '@': './src',
-    '~': './src',
-    '@components': './src/components',
-    '@layouts': './src/layouts'
+    '@': './src'
   },
   exclude: [
     '**/node_modules/**/*'

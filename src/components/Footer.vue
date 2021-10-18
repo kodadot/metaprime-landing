@@ -15,7 +15,7 @@
               mb-4
               text-xl
               font-semibold
-              text-secondary
+              text-secondary-light
             "
           >
             Developers
@@ -63,7 +63,7 @@
               mb-4
               text-xl
               font-semibold
-              text-secondary
+              text-secondary-light
             "
           >
             Community
@@ -111,7 +111,7 @@
               mb-4
               text-xl
               font-semibold
-              text-secondary
+              text-secondary-light
             "
           >
             Social
@@ -167,7 +167,7 @@
               mb-4
               text-xl
               font-semibold
-              text-secondary
+              text-secondary-light
             "
           >
             Info
@@ -194,7 +194,7 @@
                 href="#_"
                 class="hover:text-primary"
               >
-                Careers | <span class="text-secondary">Hiring!</span>
+                Careers | <span class="text-secondary-light">Hiring!</span>
               </a>
             </li>
           </ul>
