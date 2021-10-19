@@ -1,6 +1,6 @@
 <template>
   <section class="relative overflow-hidden h-[34.25rem] py-20 after:absolute after:top-0 after:left-0 after:bg-lines after:bg-no-repeat after:bg-cover after:w-full after:h-[37rem] after:-z-10">
-    <div class="relative flex flex-col justify-center container mx-auto h-full">
+    <div class="relative flex flex-col justify-center container h-full">
       <h2 class="font-semibold uppercase flex flex-col mb-6">
         <span class="text-secondary text-[5.125rem] leading-none">Unlock the</span>
         <span class="text-primary text-[5.625rem] leading-none">Metaverse</span>
@@ -13,7 +13,7 @@
     </div>
   </section>
   <section class="relative py-20">
-    <div class="relative flex flex-col justify-center container mx-auto h-full">
+    <div class="relative flex flex-col justify-center container h-full">
       <h2 class="font-semibold uppercase flex flex-col mb-6">
         <span class="text-secondary text-[5.125rem] leading-none">What is this</span>
         <span class="text-primary text-[5.625rem] leading-none">Buzzword?</span>
@@ -32,7 +32,7 @@
     </div>
   </section>
   <section class="relative overflow-hidden py-20 after:absolute after:top-0 after:left-0 after:bg-lines-secondary after:bg-no-repeat after:bg-cover after:w-full after:h-[37rem] after:-z-10">
-    <div class="relative flex flex-col justify-center container mx-auto h-full">
+    <div class="relative flex flex-col justify-center container h-full">
       <h2 class="font-semibold text-[5rem] leading-none uppercase mb-6">
         <span>An</span>
         <span class="text-primary">Experimental</span>,
@@ -43,7 +43,7 @@
     </div>
   </section>
   <section class="py-20">
-    <div class="container mx-auto mb-20">
+    <div class="container mb-20">
       <MetaPrime class="mb-4" />
       <h2 class="font-semibold text-[5rem] text-primary leading-none uppercase mb-6">
         Diagram
@@ -74,7 +74,7 @@
         <Tag content="Oracles" />
       </div>
     </div>
-    <div class="container mx-auto mb-28">
+    <div class="container mb-28">
       <Heading class="mb-28" tag="h3" light>
         EXAMPLES OF WHAT <br>
         YOU WILL BE BUILDING:
@@ -136,7 +136,7 @@
         </div>
       </div>
     </div>
-    <div class="container mx-auto mb-28">
+    <div class="container mb-28">
       <Heading class="mb-16" tag="h3" light>
         WE WANT TO:
       </Heading>
@@ -167,7 +167,7 @@
         </div>
       </div>
     </div>
-    <div class="container mx-auto mb-28">
+    <div class="container mb-28">
       <Heading class="mb-16" tag="h3" light>
        ALLOW EASIER <br>
         ACCESS TO:
@@ -208,7 +208,7 @@
         </div>
       </div>
     </div>
-      <div class="container mx-auto">
+      <div class="container">
       <Heading class="mb-16" tag="h3" light>
         WE REALLY <br>
         WANT TO SEE:
@@ -217,6 +217,32 @@
           <Tag class="mb-3" content="3D Modelling toolchains" />
           <Tag class="mb-3" content="Gaming Engines" />
           <Tag class="mb-3" content="Rendering Stacks" />
+      </div>
+    </div>
+  </section>
+  <section class="relative overflow-hidden py-20 after:absolute after:top-0 after:left-0 after:bg-lines-secondary after:bg-no-repeat after:bg-cover after:w-full after:h-full after:-z-10">
+    <div class="container">
+      <div class="flex justify-start mb-10">
+        <Content class="max-w-2xl px-16 py-8 border-2 border-secondary-light rounded-3xl">
+          <p class="font-light italic">
+            This Metaverse is going to be far more pervasive and powerful than anything else. If one central company gains control of this, they will become more powerful
+            than any government, and be a god on Earth.
+          </p>
+          <p class="font-medium">
+            - Tim Sweeney
+          </p>
+        </Content>
+      </div>
+      <div class="flex justify-end">
+        <Content class="max-w-2xl px-16 py-8 border-2 border-secondary-light rounded-3xl">
+          <p class="font-light italic">
+            This Metaverse is going to be far more pervasive and powerful than anything else. If one central company gains control of this, they will become more powerful
+            than any government, and be a god on Earth.
+          </p>
+          <p class="font-medium">
+            - Tim Sweeney
+          </p>
+        </Content>
       </div>
     </div>
   </section>
