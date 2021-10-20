@@ -1,233 +1,159 @@
 <template>
   <footer class="w-full bg-dark pb-20">
     <div class="container mx-auto">
-      <div
-        class="
-          flex flex-wrap
-          py-20
-        "
-      >
+      <div class="flex flex-wrap py-20">
         <div
-          class="flex-initial w-1/2 md:w-1/4"
+          class="flex-initial w-1/2 md:w-1/4 mb-6 md:mb-0"
+          v-for="(item, index) in menu"
+          :key="index"
         >
-          <h2
-            class="
-              mb-4
-              text-xl
-              font-semibold
-              text-secondary-light
-            "
-          >
-            Developers
+          <h2 class="mb-4 text-xl font-semibold text-secondary-light">
+            {{ item.heading }}
           </h2>
-          <ul class="text-white text-xl font-semibold">
-            <li class="py-4">
+          <ul class="text-white text-xl font-semibold md:mb-0">
+            <li v-for="(link, index) in item.items" :key="index" class="py-4">
               <a
-                href="#_"
+                :href="link.url"
                 class="hover:text-primary"
+                :target="link.external ? '_blank': null"
+                :rel="link.external ? 'noopener noreferrer': null"
               >
-                Guide
-              </a>
-            </li>
-            <li class="py-4">
-              <a
-                href="#_"
-                class="hover:text-primary"
-              >
-                Github
-              </a>
-            </li>
-            <li class="py-4">
-              <a
-                href="#_"
-                class="hover:text-primary"
-              >
-                Collators
-              </a>
-            </li>
-            <li class="py-4">
-              <a
-                href="#_"
-                class="hover:text-primary"
-              >
-                Grants
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div
-          class="flex-initial w-1/2 md:w-1/4"
-        >
-          <h2
-            class="
-              mb-4
-              text-xl
-              font-semibold
-              text-secondary-light
-            "
-          >
-            Community
-          </h2>
-          <ul class="text-white text-xl font-semibold">
-            <li class="py-4">
-              <a
-                href="#_"
-                class="hover:text-primary"
-              >
-                Community Docs
-              </a>
-            </li>
-            <li class="py-4">
-              <a
-                href="#_"
-                class="hover:text-primary"
-              >
-                Ambassador Program
-              </a>
-            </li>
-            <li class="py-4">
-              <a
-                href="#_"
-                class="hover:text-primary"
-              >
-                Blog
-              </a>
-            </li>
-            <li class="py-4">
-              <a
-                href="#_"
-                class="hover:text-primary"
-              >
-                Brand Assets
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div
-          class="flex-initial w-1/2 md:w-1/4"
-        >
-          <h2
-            class="
-              mb-4
-              text-xl
-              font-semibold
-              text-secondary-light
-            "
-          >
-            Social
-          </h2>
-          <ul class="text-white text-xl font-semibold">
-            <li class="py-4">
-              <a
-                href="#_"
-                class="hover:text-primary"
-              >
-                Twitter
-              </a>
-            </li>
-            <li class="py-4">
-              <a
-                href="#_"
-                class="hover:text-primary"
-              >
-                Discord
-              </a>
-            </li>
-            <li class="py-4">
-              <a
-                href="#_"
-                class="hover:text-primary"
-              >
-                Telegram
-              </a>
-            </li>
-            <li class="py-4">
-              <a
-                href="#_"
-                class="hover:text-primary"
-              >
-                Youtube
-              </a>
-            </li>
-            <li class="py-4">
-              <a
-                href="#_"
-                class="hover:text-primary"
-              >
-                LinkedIn
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div
-          class="flex-initial w-1/2 md:w-1/4"
-        >
-          <h2
-            class="
-              mb-4
-              text-xl
-              font-semibold
-              text-secondary-light
-            "
-          >
-            Info
-          </h2>
-          <ul class="text-white text-xl font-semibold">
-            <li class="py-4">
-              <a
-                href="#_"
-                class="hover:text-primary"
-              >
-                Contact
-              </a>
-            </li>
-            <li class="py-4">
-              <a
-                href="#_"
-                class="hover:text-primary"
-              >
-                FAQ
-              </a>
-            </li>
-            <li class="py-4">
-              <a
-                href="#_"
-                class="hover:text-primary"
-              >
-                Careers | <span class="text-secondary-light">Hiring!</span>
+                {{ link.label }}
               </a>
             </li>
           </ul>
         </div>
       </div>
 
-    <div class="text-lg">
-       © 2021 Metaprime |
-       <a
-        href="#_"
-        class="hover:text-primary"
-      >
-        Privacy Policy
-      </a>
-       |
-       <a
-        href="#_"
-        class="hover:text-primary"
-      >
-        Terms and Conditions
-      </a>
-    </div>
+      <div class="text-lg">
+        © 2021 Metaprime |
+        <a href="#_" class="hover:text-primary"> Privacy Policy </a>
+        |
+        <a href="#_" class="hover:text-primary"> Terms and Conditions </a>
+      </div>
     </div>
   </footer>
 </template>
 
 <script>
+import { ref, refs, reactive } from "vue";
 export default {
   setup() {
-    return {};
+    const menu = ref([
+      {
+        heading: "Developers",
+        items: [
+          {
+            label: "Guide",
+            url: "/guide",
+            external: true,
+          },
+          {
+            label: "Github",
+            url: "/github",
+            external: true,
+          },
+          {
+            label: "Collators",
+            url: "/collators",
+            external: true,
+          },
+          {
+            label: "Collators",
+            url: "/collators",
+            external: true,
+          },
+          {
+            label: "Grants",
+            url: "/grants",
+            external: true,
+          },
+        ],
+      },
+      {
+        heading: "Community",
+        items: [
+          {
+            label: "Community Docs",
+            url: "/community-docs",
+            external: true,
+          },
+          {
+            label: "Ambassador Program",
+            url: "/ambassador-program",
+            external: true,
+          },
+          {
+            label: "Blog",
+            url: "/blog",
+            external: true,
+          },
+          {
+            label: "Brand Assets",
+            url: "/brand-assets",
+            external: true,
+          },
+          {
+            label: "Grants",
+            url: "/grants",
+            external: true,
+          },
+        ],
+      },
+      {
+        heading: "Social",
+        items: [
+          {
+            label: "Twitter",
+            url: "/twitter",
+            external: true,
+          },
+          {
+            label: "Discord",
+            url: "/discord",
+            external: true,
+          },
+          {
+            label: "Telegram",
+            url: "/Telegram",
+            external: true,
+          },
+          {
+            label: "Youtube",
+            url: "/Youtube",
+            external: true,
+          },
+          {
+            label: "LinkedIn",
+            url: "/LinkedIn",
+            external: true,
+          },
+        ],
+      },
+      {
+        heading: "Info",
+        items: [
+          {
+            label: "Contact",
+            url: "/contact",
+            external: true,
+          },
+          {
+            label: "FAQ",
+            url: "/faq",
+            external: true,
+          },
+          {
+            label: "Careers | Hiring!",
+            url: "/careers",
+            external: true,
+          },
+        ],
+      },
+    ]);
+    return {
+      menu,
+    };
   },
 };
 </script>
-
-<style lang="scss" scoped>
-</style>
