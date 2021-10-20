@@ -79,8 +79,8 @@ module.exports = {
       // primary: theme("colors.primary"),
     }),
     fill: (theme) => ({
-      // ...theme("colors"),
-      // primary: theme("colors.primary"),
+      ...theme("colors"),
+      white: theme("colors.white"),
       // light: theme("colors.white"),
       // gray: theme("colors.gray.500"),
     }),

@@ -1,6 +1,6 @@
 <template>
-  <section class="relative bg-dark">
-    <div class="container flex items-center justify-between h-20 mx-auto">
+  <section class="bg-dark">
+    <div class="container flex items-center justify-between h-16 lg:h-20 mx-auto">
       <h1>
         <a
           href="/"
@@ -21,14 +21,19 @@
         </a>
       </h1>
       <nav
-        class="
+        :class="[
+          { 'hidden': !show },
+          `
+          container mx-auto
+          absolute lg:relative
+          top-16 lg:top-0 px-0 py-4
+          bg-dark w-full h-full
           items-center
-          justify-center
-          hidden
-          space-x-14
+          justify-center lg:justify-end
+          space-x-12
           text-gray
-          md:flex
-        "
+          lg:flex`
+        ]"
       >
         <a
           href="/hackathon"
@@ -92,34 +97,32 @@
         </a>
       </nav>
 
-      <div class="flex items-center justify-center h-full text-white md:hidden">
-        <svg
-          class="w-6 h-6"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 8h16M4 16h16"
-          ></path>
-        </svg>
+      <div class="flex items-center justify-center h-full text-white lg:hidden">
+        <button aria-label="Menu Button" @click="show = !show" :aria-expanded="show">
+            <svg class="fill-white" viewBox="0 0 24 24" width="24" height="24">
+              <rect width="24" height="2"></rect>
+              <rect y="10" width="24" height="2"></rect>
+              <rect y="20" width="24" height="2"></rect>
+            </svg>
+        </button>
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import { ref } from 'vue'
 import Logo from '../assets/logo.svg'
 export default {
   components: {
     Logo
   },
   setup() {
-    return {}
+    const show = ref(false)
+
+    return {
+      show
+    }
   },
 }
 </script>
