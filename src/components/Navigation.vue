@@ -24,9 +24,9 @@
         :class="[
           { 'hidden': !show },
           `
-          container mx-auto
-          absolute lg:relative
-          top-16 lg:top-0 px-0 py-4
+          absolute lg:relative z-10
+          top-16 left-0 lg:top-0 px-4 py-4
+          text-center
           bg-dark w-full h-full
           items-center
           justify-center lg:justify-end
