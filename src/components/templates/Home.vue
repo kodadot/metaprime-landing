@@ -259,7 +259,7 @@
 
 <!-- Section 10 -->
 <section class="py-20">
-  <HeroCustom bg="lines-secondary" container-class="md:flex-col">
+  <HeroCustom bg-class="after:bg-lines-secondary" container-class="md:flex-col">
     <div class="flex justify-start mb-10">
       <Content class="max-w-2xl px-16 py-8 border-2 border-secondary-light rounded-3xl">
         <p class="font-light italic">
@@ -316,7 +316,7 @@ export default {
         url: '/assets/images/triangle.png',
         alt: ''
       },
-      bg: 'lines'
+      bgClass: 'after:bg-lines'
     }
 
     const section2 = {
@@ -338,7 +338,7 @@ export default {
         firstLine: 'What is this',
         secondLine: 'Buzzword'
       },
-      bg: 'lines-secondary'
+      bgClass: 'after:bg-lines-secondary'
     }
 
     return {

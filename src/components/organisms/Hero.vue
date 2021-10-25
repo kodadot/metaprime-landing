@@ -1,16 +1,17 @@
 <template>
   <div
-    :class="`
+    :class="[`
       relative overflow-hidden py-10 md:py-20
-      ${ bg ?
-        `after:bg-${bg} after:bg-no-repeat after:bg-cover
+      ${ bgClass ?
+        `after:bg-no-repeat after:bg-cover
         after:absolute after:top-0 after:left-0
         after:w-full after:h-full
         after:-z-10
         `
           : '' }
-      `
-    "
+      `,
+      bgClass
+    ]"
   >
     <div class="container flex flex-col md:flex-row justify-between">
       <div class="relative flex flex-col mb-4 justify-center">
@@ -54,7 +55,7 @@ export default {
       type: Object,
       default: () => {}
     },
-    bg: {
+    bgClass: {
       type: String,
       default: ''
     }
