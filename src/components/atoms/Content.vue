@@ -1,13 +1,12 @@
 <template>
-  <div class="text-2xl font-semibold">
+  <div
+    class="
+      font-semibold
+      text-xl md:text-2xl
+      max-w-xl
+      leading-normal
+    "
+  >
     <slot />
   </div>
 </template>
-
-<script>
-export default {
-  setup () {
-    return {}
-  }
-}
-</script>
