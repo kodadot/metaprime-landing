@@ -285,6 +285,82 @@
   </HeroCustom>
 </section>
 <!-- Section 10 -->
+
+<!-- Section 11 -->
+<section class="py-20">
+  <div
+    class="
+      container
+      flex flex-col md:flex-row
+      justify-between items-start md:items-center
+    "
+  >
+    <Heading class="mb-16 md:mb-0 md:mr-4" tag="h3">
+      <span>
+        AUGMENTED BONDING <br>
+        CURVE WITH A FOCUS <br>
+        ON
+        <span class="text-white">
+          PUBLIC GOODS
+        </span>
+      </span>
+    </Heading>
+    <div>
+      <img
+        src="/assets/images/sierpinski.png"
+        alt="Sierpinski triangle"
+        class="max-w-xs md:max-w-full"
+        loading="lazy"
+      >
+    </div>
+  </div>
+</section>
+<!-- Section 11 -->
+
+<!-- Section 12 -->
+<section class="py-20">
+  <HeroCustom bg-class="after:bg-lines-secondary" class="overflow-visible">
+    <Heading tag="h3">
+      <span>
+        Build
+        <span class="text-white">
+          On
+        </span>
+        <br>
+        The Fly
+      </span>
+    </Heading>
+    <div class="relative w-full flex flex-col justify-center items-center">
+      <img
+        src="/assets/images/buildings.png"
+        alt="Buildings"
+        class="max-w-xs md:max-w-full mb-4 lg:mb-0"
+        loading="lazy"
+      >
+      <Tag
+        class="lg:absolute top-0 lg:right-0 xl:-right-16 mb-4 md:py-10 bg-black max-w-lg"
+        content="
+          SDK - bringing native deep
+          integration with future-metaverse
+          native frameworks like goDot,
+          Unity, a-frame"
+      />
+      <Tag
+        class="lg:absolute bottom-0 lg:left-0 mb-4 md:py-10 bg-black max-w-sm"
+        content="
+          Building tools for
+          future Metaverse
+          creators and architects"
+      />
+      <Tag
+        class="lg:absolute -bottom-44 lg:right-0 z-10 mb-4 md:py-10 bg-black max-w-xl"
+        content="No-code deployment creators storefront (MinuteShop codename). We understand that there are non-tech savvy creators and they want to deploy their own smart contracts and be in full ownership of their storefront."
+      />
+    </div>
+
+  </HeroCustom>
+</section>
+<!-- Section 12 -->
 </template>
 
 <script>

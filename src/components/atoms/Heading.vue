@@ -4,7 +4,7 @@
     :class="[
       `inline-flex
       pb-6 mb-6
-      border-b-4
+      border-b-4 uppercase
       text-3xl md:text-5xl font-semibold`,
       { 'text-secondary border-secondary' : !light },
       { 'text-secondary-light border-secondary-light' : light }

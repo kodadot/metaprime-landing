@@ -15,13 +15,11 @@
   >
     <div
       :class="[
-        `container flex flex-col md:flex-row justify-between`,
+        `container`,
         containerClass
       ]
     ">
-      <div class="relative flex flex-col justify-center">
-        <slot />
-      </div>
+      <slot />
     </div>
   </div>
 </template>
