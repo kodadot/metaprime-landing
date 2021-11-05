@@ -468,6 +468,59 @@
   </HeroCustom>
 </section>
 <!-- Section 14 -->
+
+<!-- Section 15 -->
+<section class="py-20">
+  <div class="container">
+    <Heading tag="h3" class="mb-16">
+      Ecosystem Support
+    </Heading>
+    <div class="flex flex-col md:flex-row md:flex-wrap space-y-6  lg:space-y-0 items-start md:items-center md:space-x-4 mb-20">
+      <img src="/assets/logos/web3.png" alt="web3 foundation" loading="lazy">
+      <img src="/assets/logos/kusama.png" alt="kusama" loading="lazy">
+    </div>
+
+    <Heading tag="h3" class="mb-16">
+      Partners
+    </Heading>
+    <img src="/assets/logos/kusama2.png" alt="kusama" loading="lazy" class="mb-10">
+    <div class="flex flex-col md:flex-row md:flex-wrap space-y-6  lg:space-y-0 items-start md:items-center justify-between md:space-x-4 mb-12">
+      <img src="/assets/logos/rmrk.png" alt="" loading="lazy">
+      <img src="/assets/logos/arweave.png" alt="" loading="lazy">
+      <img src="/assets/logos/subquery.png" alt="" loading="lazy">
+      <img src="/assets/logos/polkadotjs.png" alt="" loading="lazy">
+    </div>
+    <div class="flex flex-col md:flex-row md:flex-wrap space-y-6  lg:space-y-0 items-start md:items-center justify-between md:space-x-4 mb-20">
+      <img src="/assets/logos/basilisk.png" alt="" loading="lazy">
+      <img src="/assets/logos/litentry.png" alt="" loading="lazy">
+      <img src="/assets/logos/subsocial.png" alt="" loading="lazy">
+      <img src="/assets/logos/patract.png" alt="" loading="lazy">
+    </div>
+
+    <Heading tag="h3" class="mb-16">
+      Investors
+    </Heading>
+    <div class="flex flex-col md:flex-row md:flex-wrap space-y-6  lg:space-y-0 items-start md:items-center justify-between md:space-x-4 mb-12">
+      <img src="/assets/logos/ellipti.png" alt="" loading="lazy">
+      <img src="/assets/logos/kr1.png" alt="" loading="lazy">
+      <img src="/assets/logos/hypersphere.png" alt="" loading="lazy">
+      <img src="/assets/logos/permanent-ventures.png" alt="" loading="lazy">
+      <img src="/assets/logos/cms.png" alt="" loading="lazy">
+    </div>
+    <div class="flex flex-col md:flex-row md:flex-wrap space-y-6  lg:space-y-0 items-start md:items-center justify-between md:space-x-4 mb-20">
+      <img src="/assets/logos/zee-prime-capital.png" alt="" loading="lazy">
+      <img src="/assets/logos/0x-ventures.png" alt="" loading="lazy">
+      <img src="/assets/logos/tokonomy.png" alt="" loading="lazy">
+      <img src="/assets/logos/jsquare.png" alt="" loading="lazy">
+      <img src="/assets/logos/trgc.png" alt="" loading="lazy">
+    </div>
+    <Heading tag="h3">
+      Angel Inv <br>
+      & Tweets
+    </Heading>
+  </div>
+</section>
+<!-- Section 15 -->
 </template>
 
 <script>
