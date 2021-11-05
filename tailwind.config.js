@@ -50,7 +50,7 @@ module.exports = {
       secondary: ['"Work Sans"', "sans-serif"]
     },
     boxShadow: {
-      // DEFAULT: "0 4px 10px 0 rgba(34, 65, 149, 0.06)",
+      custom: "-16px 16px 0 0 #13EEC7",
     },
     backgroundColor: (theme) => ({
       ...theme("colors"),
@@ -87,7 +87,8 @@ module.exports = {
     backgroundImage: (theme) => ({
       ...theme("colors"),
       'lines': "url('/assets/backgrounds/lines.png')",
-      'lines-secondary': "url('/assets/backgrounds/lines-secondary.png')"
+      'lines-secondary': "url('/assets/backgrounds/lines-secondary.png')",
+      'grid': "url('/assets/backgrounds/grid.png')"
     }),
     outline: {
       // dashed: ["1px dashed white", "1px"],

@@ -521,6 +521,49 @@
   </div>
 </section>
 <!-- Section 15 -->
+
+<!-- Section 16 -->
+<section class="py-20">
+  <HeroCustom bg-class="after:bg-grid">
+    <HeadingSecondary
+      tag="h3"
+      class="mb-12 text-center"
+      second-line="Our Projects"
+    />
+    <div class="flex flex-col items-center space-y-10 lg:space-y-0  lg:space-x-10 lg:flex-row lg:justify-between">
+      <div class="max-w-[30.5rem] lg:min-h-[24rem] border-2 border-secondary bg-black p-4 rounded-3xl shadow-custom">
+        <div class="flex justify-between items-center">
+          <img src="/assets/logos/metadata.png" alt="" loading="lazy">
+          <Content>
+            MetaData hosting
+            using Arweave
+          </Content>
+        </div>
+        <div class="relative w-[20.375rem]">
+          <img src="/assets/images/shape.png" alt="" loading="lazy">
+          <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl uppercase">Permafrost</span>
+        </div>
+      </div>
+      <div class="max-w-[30.5rem] lg:min-h-[24rem] border-2 border-secondary bg-black p-4 rounded-3xl shadow-custom">
+        <div class="relative w-[20.375rem] ml-auto">
+          <img src="/assets/images/shape.png" alt="" loading="lazy">
+          <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl uppercase">Kodadot</span>
+        </div>
+        <div class="flex justify-between items-center">
+          <img src="/assets/logos/kodadot.png" alt="" loading="lazy">
+          <Content>
+            Scaffold boilerplate
+            to drive utility of
+            MetaPrime
+          </Content>
+        </div>
+      </div>
+    </div>
+
+
+  </HeroCustom>
+</section>
+<!-- Section 16 -->
 </template>
 
 <script>
