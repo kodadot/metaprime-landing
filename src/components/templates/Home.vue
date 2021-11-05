@@ -427,6 +427,47 @@
   </div>
 </section>
 <!-- Section 13 -->
+
+<!-- Section 14 -->
+<section class="py-20">
+  <HeroCustom bg-class="after:bg-lines-secondary">
+    <HeadingSecondary
+      tag="h3"
+      class="mb-6 md:mb-0"
+      first-line="A Multi Chain"
+      second-line="Future"
+      second-line-class="lg:text-9xl"
+    />
+    <Content class="my-12">
+      Fueled by interoperability
+    </Content>
+    <div class="flex flex-col">
+      <TagSecondary
+        class="mb-4 md:py-10 bg-black text-white justify-start max-w-2xl"
+      >
+        <img src="/assets/images/future1.png" alt="" loading="lazy" class="mr-10" />
+        Native Bridging with Solana, <br>
+        Near, Flow, Ethereum"
+      </TagSecondary>
+      <TagSecondary
+        class="mb-4 md:py-10 bg-black max-w-2xl"
+      >
+        <img src="/assets/images/future2.png" alt="" loading="lazy" class="mr-10" />
+        Future development: <br>
+        Cross chain atomic swaps
+      </TagSecondary>
+      <TagSecondary
+        class="mb-4 md:py-10 bg-black max-w-2xl"
+      >
+        <img src="/assets/images/future3.png" alt="" loading="lazy" class="mr-10" />
+        Integrations with HMD vendors <br>
+        like Magic Leap, Hololens, <br>
+        nReal, North Star
+      </TagSecondary>
+    </div>
+  </HeroCustom>
+</section>
+<!-- Section 14 -->
 </template>
 
 <script>
@@ -436,6 +477,7 @@ import Hero from '@/components/organisms/Hero'
 import HeroCustom from '@/components/organisms/HeroCustom'
 import Diagram from '@/components/organisms/Diagram'
 import Tag from '@/components/atoms/Tag.vue'
+import TagSecondary from '@/components/atoms/TagSecondary.vue'
 import Content from '@/components/atoms/Content.vue'
 import Woman from '@/assets/images/woman.svg'
 export default {
@@ -446,6 +488,7 @@ export default {
     Heading,
     HeadingSecondary,
     Tag,
+    TagSecondary,
     Content,
     Woman
   },
