@@ -56,17 +56,12 @@ export default {
           {
             label: "Collators",
             url: "/collators",
-            external: true,
-          },
-          {
-            label: "Collators",
-            url: "/collators",
-            external: true,
+            external: false,
           },
           {
             label: "Grants",
             url: "/grants",
-            external: true,
+            external: false,
           },
         ],
       },
@@ -92,12 +87,7 @@ export default {
             label: "Brand Assets",
             url: "/brand-assets",
             external: true,
-          },
-          {
-            label: "Grants",
-            url: "/grants",
-            external: true,
-          },
+          }
         ],
       },
       {
@@ -136,17 +126,17 @@ export default {
           {
             label: "Contact",
             url: "/contact",
-            external: true,
+            external: false,
           },
           {
             label: "FAQ",
             url: "/faq",
-            external: true,
+            external: false,
           },
           {
             label: "Careers | Hiring!",
             url: "/careers",
-            external: true,
+            external: false,
           },
         ],
       },
