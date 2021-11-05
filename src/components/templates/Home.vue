@@ -361,10 +361,77 @@
   </HeroCustom>
 </section>
 <!-- Section 12 -->
+
+<!-- Section 13 -->
+<section class="py-20">
+  <div class="container">
+    <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-10 md:mb-16">
+      <HeadingSecondary
+        tag="h3"
+        class="mb-6 md:mb-0"
+        first-line="Core"
+        second-line="Primitives"
+      />
+      <img
+        src="/assets/images/primitives1.png"
+        alt=""
+        loading="lazy"
+        class="max-w-xs lg:max-w-none"
+      />
+    </div>
+    <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-10 md:mb-16">
+      <img
+        src="/assets/images/primitives2.png"
+        alt=""
+        loading="lazy"
+        class="max-w-xs lg:max-w-none mb-6 md:mb-0 md:mr-6"
+      />
+      <Content class="max-w-lg">
+        NFT fractionalizing augmented
+        bonding curve with tuneable parameters
+      </Content>
+    </div>
+    <div class="flex flex-col md:flex-row-reverse md:justify-between md:items-center mb-6 md:mb-16">
+      <img
+        src="/assets/images/primitives3.png"
+        alt=""
+        loading="lazy"
+        class="max-w-xs lg:max-w-none mb-6 md:mb-0"
+      />
+      <Content class="max-w-lg">
+        NFT-Backed loans to fuel rentals from
+        Fractional Ownership through Shared liquidity on MetaPrime
+      </Content>
+    </div>
+    <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-10 md:mb-16">
+      <div class="flex">
+        <img
+          src="/assets/images/primitives4.png"
+          alt=""
+          loading="lazy"
+          class="mr-8 max-w-xs lg:max-w-none hidden lg:flex"
+        />
+        <img
+          src="/assets/images/primitives4.png"
+          alt=""
+          loading="lazy"
+          class="max-w-xs lg:max-w-none mb-6 md:mb-0 md:mr-6"
+        />
+      </div>
+      <Content class="max-w-lg">
+        Generative pallet for generating on-chain NFTs
+        with rich parametrisation, i.e use-cases for MMORPG, Art collections,
+        leveraging external resources
+      </Content>
+    </div>
+  </div>
+</section>
+<!-- Section 13 -->
 </template>
 
 <script>
 import Heading from '@/components/atoms/Heading'
+import HeadingSecondary from '@/components/atoms/HeadingSecondary'
 import Hero from '@/components/organisms/Hero'
 import HeroCustom from '@/components/organisms/HeroCustom'
 import Diagram from '@/components/organisms/Diagram'
@@ -377,6 +444,7 @@ export default {
     HeroCustom,
     Diagram,
     Heading,
+    HeadingSecondary,
     Tag,
     Content,
     Woman
