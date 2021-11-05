@@ -616,6 +616,23 @@
   </HeroCustom>
 </section>
 <!-- Section 18 -->
+
+
+<!-- Section 19 -->
+<section class="pt-28">
+  <div class="container">
+    <Heading
+      tag="h3"
+      class="italic"
+      :border="false"
+    >
+      THE METAVERSE IS NOT IN THE <br>
+      FUTURE, IT’S ALREADY HERE
+    </Heading>
+  </div>
+</section>
+<!-- Section 19 -->
+
 </template>
 
 <script>

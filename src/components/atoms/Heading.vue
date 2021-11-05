@@ -4,10 +4,11 @@
     :class="[
       `inline-flex
       pb-6 mb-6
-      border-b-4 uppercase
+      uppercase
       text-3xl md:text-5xl font-semibold`,
       { 'text-secondary border-secondary' : !light },
-      { 'text-secondary-light border-secondary-light' : light }
+      { 'text-secondary-light border-secondary-light' : light },
+      { 'border-b-4 ' : border }
     ]"
   >
     <slot />
@@ -24,6 +25,10 @@ export default {
     light: {
       type: Boolean,
       default: false
+    },
+    border: {
+      type: Boolean,
+      default: true
     }
   },
   setup () {
