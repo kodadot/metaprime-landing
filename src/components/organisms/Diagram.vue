@@ -7,7 +7,7 @@
         text-4xl lg:text-7xl
         text-primary
         leading-none
-        uppercase mb-6
+        uppercase mb-6 md:mb-16
       "
     >
       Diagram
