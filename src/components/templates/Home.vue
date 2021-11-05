@@ -559,11 +559,63 @@
         </div>
       </div>
     </div>
-
-
   </HeroCustom>
 </section>
 <!-- Section 16 -->
+
+<!-- Section 17 -->
+<section>
+  <HeroCustom>
+    <div class="flex flex-col flex-col-reverse lg:flex-row justify-between items-center">
+      <div>
+        <HeadingSecondary
+          tag="h3"
+          class="mb-12"
+          second-line="Grants"
+        />
+        <Content class="max-w-xl mb-8">
+          We want to drive public good for Metaprime citizens through Treasury funding. We aim to sponsor builders with great track record out there. We plan to bootstrap first 30% of original blueprint and rest will be up to the MetaPrime community what they are will be building for Open Metaverse Infrastructure.
+        </Content>
+        <a href="#" class="inline-flex bg-primary text-black font-semibold text-2xl uppercase rounded-3xl px-12 py-3">
+          Find out more
+        </a>
+      </div>
+      <div class="mb-10">
+        <img src="/assets/images/grants.png" alt="" loading="lazy">
+      </div>
+    </div>
+  </HeroCustom>
+</section>
+<!-- Section 17 -->
+
+<!-- Section 18 -->
+<section>
+  <HeroCustom bg-class="after:bg-lines">
+    <div class="flex flex-col flex-col-reverse lg:flex-row justify-between items-center">
+      <div>
+        <HeadingSecondary
+          tag="h3"
+          class="mb-12"
+          second-line="Subscribe"
+        />
+        <Content class="max-w-xl mb-8">
+          Keep an eye on our latest tools
+          and development via newsletter.
+        </Content>
+        <div class="relative max-w-lg">
+          <input type="email" placeholder="Enter your email..." class="w-full h-14 px-5 py-4 rounded-3xl text-gray-500 font-semibold pr-64">
+          <a href="#" class="absolute right-0 top-0 inline-flex bg-primary text-black font-semibold text-2xl uppercase rounded-3xl px-12 py-3">
+            Subscribe
+          </a>
+        </div>
+      </div>
+      <div class="mb-10">
+        <img src="/assets/images/subscribe.png" alt="" loading="lazy">
+      </div>
+    </div>
+  </HeroCustom>
+</section>
+<!-- Section 18 -->
 </template>
 
 <script>
