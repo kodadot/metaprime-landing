@@ -32,7 +32,7 @@ export default {
     },
     firstLine: {
       type: String,
-      required: true
+      default: ''
     },
     firstLineClass: {
       type: String,
@@ -40,7 +40,7 @@ export default {
     },
     secondLine: {
       type: String,
-      required: true
+      default: ''
     },
     secondLineClass: {
       type: String,

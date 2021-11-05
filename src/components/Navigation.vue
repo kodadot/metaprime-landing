@@ -46,7 +46,7 @@
           <span class="block">Hackathon</span>
         </a>
         <a
-          href="/tokenmonics"
+          href="/tokenomics"
           class="
             text-lg
             text-gray

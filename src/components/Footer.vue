@@ -81,7 +81,7 @@ export default {
           {
             label: "Ambassador Program",
             url: "/ambassador-program",
-            external: true,
+            external: false,
           },
           {
             label: "Blog",
