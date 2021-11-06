@@ -53,7 +53,12 @@
     </Heading>
     <div class="flex flex-col md:flex-row md:items-center mb-10">
       <div>
-        <Woman class="mb-4 md:mr-12" />
+        <img
+          src="/assets/images/woman.png"
+          alt="Woman"
+          class="mb-4 md:mr-12"
+          loading="lazy"
+        >
       </div>
       <Content class="max-w-xl">
         <p class="mb-6">
@@ -643,7 +648,6 @@ import Diagram from '@/components/organisms/Diagram'
 import Tag from '@/components/atoms/Tag.vue'
 import TagSecondary from '@/components/atoms/TagSecondary.vue'
 import Content from '@/components/atoms/Content.vue'
-import Woman from '@/assets/images/woman.svg'
 export default {
   components: {
     Hero,
@@ -653,8 +657,7 @@ export default {
     HeadingSecondary,
     Tag,
     TagSecondary,
-    Content,
-    Woman
+    Content
   },
   setup () {
     const section1 = {
