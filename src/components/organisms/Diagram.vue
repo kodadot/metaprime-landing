@@ -12,20 +12,24 @@
     >
       Diagram
     </h2>
-    <img
-      src="/assets/images/diagram.webp"
+
+    <Picture
+      imageDesktop="/assets/images/diagram.webp"
+      imageDefault="/assets/images/diagram.png"
       alt="Diagram"
-      class="max-w-full"
-    >
+      img-class="max-w-full"
+    />
   </div>
 </template>
 
 <script>
 import MetaPrime from '@/assets/images/meta-prime.svg'
+import Picture from '@/components/atoms/Picture'
 
 export default {
   components: {
-    MetaPrime
+    MetaPrime,
+    Picture
   },
   setup () {
     return {}

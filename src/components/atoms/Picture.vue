@@ -15,7 +15,7 @@
       media="(min-width: 1280px)"
     >
     <img
-      :src="imageDesktop"
+      :src="imageDefault"
       :alt="alt"
       :loading="lazy ? 'lazy' : undefined"
       :class="imgClass"
@@ -35,6 +35,10 @@ export default {
       default: ''
     },
     imageDesktop: {
+      type: String,
+      default: ''
+    },
+    imageDefault: {
       type: String,
       required: true
     },

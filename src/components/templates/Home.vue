@@ -704,6 +704,7 @@ export default {
       imageMobile: '/assets/backgrounds/lines-mobile.webp',
       imageTablet: '/assets/backgrounds/lines-tablet.webp',
       imageDesktop: '/assets/backgrounds/lines.webp',
+      imageDefault: '/assets/backgrounds/lines.png',
       alt: 'Background image',
       lazy: false
     }
@@ -712,6 +713,7 @@ export default {
       imageMobile: '/assets/backgrounds/lines-secondary-mobile.webp',
       imageTablet: '/assets/backgrounds/lines-secondary-tablet.webp',
       imageDesktop: '/assets/backgrounds/lines-secondary.webp',
+      imageDefault: '/assets/backgrounds/lines-secondary.png',
       alt: 'Background image'
     }
 
@@ -719,6 +721,7 @@ export default {
       imageMobile: '/assets/backgrounds/grid-mobile.webp',
       imageTablet: '/assets/backgrounds/grid-tablet.webp',
       imageDesktop: '/assets/backgrounds/grid.webp',
+      imageDefault: '/assets/backgrounds/grid.png',
       alt: 'Background image'
     }
 
@@ -731,6 +734,7 @@ export default {
       img: {
         imageMobile: '/assets/images/triangle-mobile.webp',
         imageDesktop: '/assets/images/triangle.webp',
+        imageDefault: '/assets/images/triangle.png',
         alt: 'Triangle',
         lazy: false
       }
@@ -744,6 +748,7 @@ export default {
       },
       img: {
         imageDesktop: '/assets/images/group.webp',
+        imageDefault: '/assets/images/group.png',
         alt: 'Group',
         lazy: false
       }
