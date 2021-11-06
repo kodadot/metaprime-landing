@@ -96,7 +96,7 @@
         </a>
       </nav> -->
 
-      <div class="flex items-center justify-center h-full text-white lg:hidden">
+      <!-- <div class="flex items-center justify-center h-full text-white lg:hidden">
         <button aria-label="Menu Button" @click="show = !show" :aria-expanded="show">
             <svg class="fill-white" viewBox="0 0 24 24" width="24" height="24">
               <rect width="24" height="2"></rect>
@@ -104,7 +104,7 @@
               <rect y="20" width="24" height="2"></rect>
             </svg>
         </button>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
