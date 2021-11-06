@@ -480,44 +480,84 @@
     <Heading tag="h3" class="mb-16">
       Ecosystem Support
     </Heading>
-    <div class="flex flex-col md:flex-row md:flex-wrap space-y-6  lg:space-y-0 items-start md:items-center md:space-x-4 mb-20">
-      <img src="/assets/logos/web3.png" alt="web3 foundation" loading="lazy">
-      <img src="/assets/logos/kusama.png" alt="kusama" loading="lazy">
+    <div class="flex flex-col md:flex-row md:flex-wrap items-start md:items-center md:space-x-4 mb-20">
+      <div class="flex items-center justify-start w-[16.25rem] mb-10 xl:mb-0">
+        <img src="/assets/logos/web3.png" alt="web3 foundation" loading="lazy">
+      </div>
+      <div class="flex items-center justify-start w-[16.25rem]">
+        <img src="/assets/logos/kusama.png" alt="kusama" loading="lazy">
+      </div>
     </div>
 
     <Heading tag="h3" class="mb-16">
       Partners
     </Heading>
     <img src="/assets/logos/kusama2.png" alt="kusama" loading="lazy" class="mb-10">
-    <div class="flex flex-col md:flex-row md:flex-wrap space-y-6  lg:space-y-0 items-start md:items-center justify-between md:space-x-4 mb-12">
-      <img src="/assets/logos/rmrk.png" alt="" loading="lazy">
-      <img src="/assets/logos/arweave.png" alt="" loading="lazy">
-      <img src="/assets/logos/subquery.png" alt="" loading="lazy">
-      <img src="/assets/logos/polkadotjs.png" alt="" loading="lazy">
+    <div class="flex flex-wrap items-start md:items-center justify-between xl:space-x-4 xl:mb-12">
+      <div class="flex items-center justify-start w-[16.25rem] mb-10 xl:mb-0">
+        <img src="/assets/logos/rmrk.png" alt="" loading="lazy">
+      </div>
+      <div class="flex items-center justify-start w-[16.25rem] mb-10 xl:mb-0">
+        <img src="/assets/logos/arweave.png" alt="" loading="lazy">
+      </div>
+      <div class="flex items-center justify-start w-[16.25rem] mb-10 xl:mb-0">
+        <img src="/assets/logos/subquery.png" alt="" loading="lazy">
+      </div>
+      <div class="flex items-center justify-start w-[16.25rem] mb-10 xl:mb-0">
+        <img src="/assets/logos/polkadotjs.png" alt="" loading="lazy">
+      </div>
     </div>
-    <div class="flex flex-col md:flex-row md:flex-wrap space-y-6  lg:space-y-0 items-start md:items-center justify-between md:space-x-4 mb-20">
-      <img src="/assets/logos/basilisk.png" alt="" loading="lazy">
-      <img src="/assets/logos/litentry.png" alt="" loading="lazy">
-      <img src="/assets/logos/subsocial.png" alt="" loading="lazy">
-      <img src="/assets/logos/patract.png" alt="" loading="lazy">
+    <div class="flex flex-col md:flex-row md:flex-wrap items-start md:items-center justify-between md:space-x-4 mb-20">
+      <div class="flex items-center justify-start w-[16.25rem] mb-10 xl:mb-0">
+        <img src="/assets/logos/basilisk.png" alt="" loading="lazy">
+      </div>
+      <div class="flex items-center justify-start w-[16.25rem] mb-10 xl:mb-0">
+        <img src="/assets/logos/litentry.png" alt="" loading="lazy">
+      </div>
+      <div class="flex items-center justify-start w-[16.25rem] mb-10 xl:mb-0">
+        <img src="/assets/logos/subsocial.png" alt="" loading="lazy">
+      </div>
+      <div class="flex items-center justify-start w-[16.25rem]">
+        <img src="/assets/logos/patract.png" alt="" loading="lazy">
+      </div>
     </div>
 
     <Heading tag="h3" class="mb-16">
       Investors
     </Heading>
-    <div class="flex flex-col md:flex-row md:flex-wrap space-y-6  lg:space-y-0 items-start md:items-center justify-between md:space-x-4 mb-12">
-      <img src="/assets/logos/ellipti.png" alt="" loading="lazy">
-      <img src="/assets/logos/kr1.png" alt="" loading="lazy">
-      <img src="/assets/logos/hypersphere.png" alt="" loading="lazy">
-      <img src="/assets/logos/permanent-ventures.png" alt="" loading="lazy">
-      <img src="/assets/logos/cms.png" alt="" loading="lazy">
+    <div class="flex flex-col md:flex-row md:flex-wrap items-start md:items-center justify-between md:space-x-4 xl:mb-12">
+      <div class="flex items-center justify-start w-[16.25rem] md:w-auto mb-10 xl:mb-0">
+        <img src="/assets/logos/ellipti.png" alt="" loading="lazy">
+      </div>
+      <div class="flex items-center justify-start w-[16.25rem] md:w-auto mb-10 xl:mb-0">
+        <img src="/assets/logos/kr1.png" alt="" loading="lazy">
+      </div>
+      <div class="flex items-center justify-start w-[16.25rem] md:w-auto mb-10 xl:mb-0">
+        <img src="/assets/logos/hypersphere.png" alt="" loading="lazy">
+      </div>
+      <div class="flex items-center justify-start w-[16.25rem] md:w-auto mb-10 xl:mb-0">
+        <img src="/assets/logos/permanent-ventures.png" alt="" loading="lazy">
+      </div>
+      <div class="flex items-center justify-start w-[16.25rem] md:w-auto mb-10 xl:mb-0">
+        <img src="/assets/logos/cms.png" alt="" loading="lazy">
+      </div>
     </div>
-    <div class="flex flex-col md:flex-row md:flex-wrap space-y-6  lg:space-y-0 items-start md:items-center justify-between md:space-x-4 mb-20">
-      <img src="/assets/logos/zee-prime-capital.png" alt="" loading="lazy">
-      <img src="/assets/logos/0x-ventures.png" alt="" loading="lazy">
-      <img src="/assets/logos/tokonomy.png" alt="" loading="lazy">
-      <img src="/assets/logos/jsquare.png" alt="" loading="lazy">
-      <img src="/assets/logos/trgc.png" alt="" loading="lazy">
+    <div class="flex flex-col md:flex-row md:flex-wrap items-start md:items-center justify-between md:space-x-4 mb-20">
+      <div class="flex items-center justify-start w-[16.25rem] md:w-auto mb-10 xl:mb-0">
+        <img src="/assets/logos/zee-prime-capital.png" alt="" loading="lazy">
+      </div>
+      <div class="flex items-center justify-start w-[16.25rem] md:w-auto mb-10 xl:mb-0">
+        <img src="/assets/logos/0x-ventures.png" alt="" loading="lazy">
+      </div>
+      <div class="flex items-center justify-start w-[16.25rem] md:w-auto mb-10 xl:mb-0">
+        <img src="/assets/logos/tokonomy.png" alt="" loading="lazy">
+      </div>
+      <div class="flex items-center justify-start w-[16.25rem] md:w-auto mb-10 xl:mb-0">
+        <img src="/assets/logos/jsquare.png" alt="" loading="lazy">
+      </div>
+      <div class="flex items-center justify-start w-[16.25rem] md:w-auto">
+        <img src="/assets/logos/trgc.png" alt="" loading="lazy">
+      </div>
     </div>
     <!-- <Heading tag="h3">
       Angel Inv <br>
