@@ -14,6 +14,9 @@
       :srcset="imageDesktop"
       media="(min-width: 1280px)"
     >
+    <source
+      :srcset="imageDefault"
+    >
     <img
       :src="imageDefault"
       :alt="alt"
