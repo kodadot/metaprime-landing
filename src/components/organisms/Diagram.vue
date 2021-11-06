@@ -12,17 +12,20 @@
     >
       Diagram
     </h2>
-    <Diagram class="max-w-6xl" />
+    <img
+      src="/assets/images/diagram.webp"
+      alt="Diagram"
+      loading="lazy"
+      class="max-w-full"
+    >
   </div>
 </template>
 
 <script>
-import Diagram from '@/assets/images/diagram.svg'
 import MetaPrime from '@/assets/images/meta-prime.svg'
 
 export default {
   components: {
-    Diagram,
     MetaPrime
   },
   setup () {

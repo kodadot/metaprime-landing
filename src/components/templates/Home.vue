@@ -1,7 +1,7 @@
 <template>
 <!-- Section 1 -->
 <section>
-  <Hero v-bind="section1">
+  <Hero v-bind="section1" class="xl:min-h-[36.875rem]">
     Your vehicle for exploring and
     building immersive realities.
   </Hero>
@@ -39,13 +39,13 @@
 <!-- Section 3 -->
 
 <!-- Section 4 -->
-<section class="py-20">
+<section class="py-10 md:py-20">
   <Diagram />
 </section>
 <!-- Section 4 -->
 
 <!-- Section 5 -->
-<section class="py-20">
+<section class="py-10 md:py-20">
   <div class="container">
     <Heading class="mb-16" tag="h3">
       WEB 3.0 TOOLBOX FOR <br>
@@ -81,7 +81,7 @@
 <!-- Section 5 -->
 
 <!-- Section 6 -->
-<section class="py-20">
+<section class="py-10 md:py-20">
   <div class="container">
     <Heading class="mb-16" tag="h3">
       EXAMPLES OF WHAT <br>
@@ -149,7 +149,7 @@
 
 
 <!-- Section 7 -->
-<section class="py-20">
+<section class="py-10 md:py-20">
   <div class="container">
     <Heading class="mb-16" tag="h3">
       WE WANT TO:
@@ -185,7 +185,7 @@
 <!-- Section 7 -->
 
 <!-- Section 8 -->
-<section class="py-20">
+<section class="py-10 md:py-20">
   <div class="container">
     <Heading class="mb-16" tag="h3">
       ALLOW EASIER <br>
@@ -241,7 +241,7 @@
 <!-- Section 8 -->
 
 <!-- Section 9 -->
-<section class="py-20">
+<section class="py-10 md:py-20">
   <div class="container">
     <Heading class="mb-16" tag="h3">
       WE REALLY <br>
@@ -258,26 +258,26 @@
 
 
 <!-- Section 10 -->
-<section class="py-20">
+<section class="py-10 md:py-20">
   <HeroCustom bg-class="after:bg-lines-secondary" container-class="md:flex-col">
     <div class="flex justify-start mb-10">
       <Content class="max-w-2xl px-16 py-8 border-2 border-secondary-light rounded-3xl">
-        <p class="font-light italic">
+        <p class="italic">
           This Metaverse is going to be far more pervasive and powerful than anything else. If one central company gains control of this, they will become more powerful
           than any government, and be a god on Earth.
         </p>
-        <p class="font-medium">
+        <p class="font-semibold">
           - Tim Sweeney
         </p>
       </Content>
     </div>
     <div class="flex justify-end">
       <Content class="max-w-2xl px-16 py-8 border-2 border-secondary-light rounded-3xl">
-        <p class="font-light italic">
+        <p class="italic">
           This Metaverse is going to be far more pervasive and powerful than anything else. If one central company gains control of this, they will become more powerful
           than any government, and be a god on Earth.
         </p>
-        <p class="font-medium">
+        <p class="font-semibold">
           - Tim Sweeney
         </p>
       </Content>
@@ -287,7 +287,7 @@
 <!-- Section 10 -->
 
 <!-- Section 11 -->
-<section class="py-20">
+<section class="py-10 md:py-20">
   <div
     class="
       container
@@ -318,7 +318,7 @@
 <!-- Section 11 -->
 
 <!-- Section 12 -->
-<section class="py-20">
+<section class="py-10 md:py-20">
   <HeroCustom bg-class="after:bg-lines-secondary" class="overflow-visible">
     <Heading tag="h3">
       <span>
@@ -363,7 +363,7 @@
 <!-- Section 12 -->
 
 <!-- Section 13 -->
-<section class="py-20">
+<section class="py-10 md:py-20">
   <div class="container">
     <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-10 md:mb-16">
       <HeadingSecondary
@@ -429,7 +429,7 @@
 <!-- Section 13 -->
 
 <!-- Section 14 -->
-<section class="py-20">
+<section class="py-10 md:py-20">
   <HeroCustom bg-class="after:bg-lines-secondary">
     <HeadingSecondary
       tag="h3"
@@ -470,7 +470,7 @@
 <!-- Section 14 -->
 
 <!-- Section 15 -->
-<section class="py-20">
+<section class="py-10 md:py-20">
   <div class="container">
     <Heading tag="h3" class="mb-16">
       Ecosystem Support
@@ -523,7 +523,7 @@
 <!-- Section 15 -->
 
 <!-- Section 16 -->
-<section class="py-20">
+<section class="py-10 md:py-20">
   <HeroCustom bg-class="after:bg-grid">
     <HeadingSecondary
       tag="h3"
@@ -664,7 +664,7 @@ export default {
         secondLine: 'Metaverse'
       },
       img: {
-        url: '/assets/images/triangle.png',
+        url: '/assets/images/triangle.webp',
         alt: ''
       },
       bgClass: 'after:bg-lines'
@@ -677,7 +677,7 @@ export default {
         secondLine: 'Buzzword'
       },
       img: {
-        url: '/assets/images/group.png',
+        url: '/assets/images/group.webp',
         alt: '',
         lazy: true
       }

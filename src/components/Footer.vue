@@ -40,31 +40,31 @@ import { ref, refs, reactive } from "vue";
 export default {
   setup() {
     const menu = ref([
-      // {
-      //   heading: "Developers",
-      //   items: [
-      //     {
-      //       label: "Guide",
-      //       url: "/guide",
-      //       external: true,
-      //     },
-      //     {
-      //       label: "Github",
-      //       url: "/github",
-      //       external: true,
-      //     },
-      //     {
-      //       label: "Collators",
-      //       url: "/collators",
-      //       external: false,
-      //     },
-      //     {
-      //       label: "Grants",
-      //       url: "/grants",
-      //       external: false,
-      //     },
-      //   ],
-      // },
+      {
+        heading: "Developers",
+        items: [
+          {
+            label: "Guide",
+            url: "https://kodadot.gitbook.io/knowledgebase/",
+            external: true,
+          },
+          {
+            label: "Github",
+            url: "https://github.com/kodadot/",
+            external: true,
+          },
+          // {
+          //   label: "Collators",
+          //   url: "/collators",
+          //   external: false,
+          // },
+          // {
+          //   label: "Grants",
+          //   url: "/grants",
+          //   external: false,
+          // },
+        ],
+      },
       // {
       //   heading: "Community",
       //   items: [
@@ -95,51 +95,51 @@ export default {
         items: [
           {
             label: "Twitter",
-            url: "/twitter",
+            url: "https://twitter.com/KodaDot",
             external: true,
           },
           {
             label: "Discord",
-            url: "/discord",
+            url: "https://discord.gg/35hzy2dXXh",
             external: true,
           },
           {
             label: "Telegram",
-            url: "/Telegram",
+            url: "https://t.me/kodadot",
             external: true,
           },
-          {
-            label: "Youtube",
-            url: "/Youtube",
-            external: true,
-          },
-          {
-            label: "LinkedIn",
-            url: "/LinkedIn",
-            external: true,
-          },
+          // {
+          //   label: "Youtube",
+          //   url: "/Youtube",
+          //   external: true,
+          // },
+          // {
+          //   label: "LinkedIn",
+          //   url: "/LinkedIn",
+          //   external: true,
+          // },
         ],
       },
-      // {
-      //   heading: "Info",
-      //   items: [
-      //     {
-      //       label: "Contact",
-      //       url: "/contact",
-      //       external: false,
-      //     },
-      //     {
-      //       label: "FAQ",
-      //       url: "/faq",
-      //       external: false,
-      //     },
-      //     {
-      //       label: "Careers | Hiring!",
-      //       url: "/careers",
-      //       external: false,
-      //     },
-      //   ],
-      // },
+      {
+        heading: "Info",
+        items: [
+          // {
+          //   label: "Contact",
+          //   url: "/contact",
+          //   external: false,
+          // },
+          {
+            label: "FAQ",
+            url: "https://kodadot.gitbook.io/knowledgebase/general/faq",
+            external: true,
+          },
+          // {
+          //   label: "Careers | Hiring!",
+          //   url: "/careers",
+          //   external: false,
+          // },
+        ],
+      },
     ]);
     return {
       menu,

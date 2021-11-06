@@ -11,7 +11,6 @@
             items-center
             w-auto
             text-2xl
-            font-extrabold
             leading-none
             select-none
           "
