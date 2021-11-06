@@ -40,56 +40,56 @@ import { ref, refs, reactive } from "vue";
 export default {
   setup() {
     const menu = ref([
-      {
-        heading: "Developers",
-        items: [
-          {
-            label: "Guide",
-            url: "/guide",
-            external: true,
-          },
-          {
-            label: "Github",
-            url: "/github",
-            external: true,
-          },
-          {
-            label: "Collators",
-            url: "/collators",
-            external: false,
-          },
-          {
-            label: "Grants",
-            url: "/grants",
-            external: false,
-          },
-        ],
-      },
-      {
-        heading: "Community",
-        items: [
-          {
-            label: "Community Docs",
-            url: "/community-docs",
-            external: true,
-          },
-          {
-            label: "Ambassador Program",
-            url: "/ambassador-program",
-            external: false,
-          },
-          {
-            label: "Blog",
-            url: "/blog",
-            external: true,
-          },
-          {
-            label: "Brand Assets",
-            url: "/brand-assets",
-            external: true,
-          }
-        ],
-      },
+      // {
+      //   heading: "Developers",
+      //   items: [
+      //     {
+      //       label: "Guide",
+      //       url: "/guide",
+      //       external: true,
+      //     },
+      //     {
+      //       label: "Github",
+      //       url: "/github",
+      //       external: true,
+      //     },
+      //     {
+      //       label: "Collators",
+      //       url: "/collators",
+      //       external: false,
+      //     },
+      //     {
+      //       label: "Grants",
+      //       url: "/grants",
+      //       external: false,
+      //     },
+      //   ],
+      // },
+      // {
+      //   heading: "Community",
+      //   items: [
+      //     {
+      //       label: "Community Docs",
+      //       url: "/community-docs",
+      //       external: true,
+      //     },
+      //     {
+      //       label: "Ambassador Program",
+      //       url: "/ambassador-program",
+      //       external: false,
+      //     },
+      //     {
+      //       label: "Blog",
+      //       url: "/blog",
+      //       external: true,
+      //     },
+      //     {
+      //       label: "Brand Assets",
+      //       url: "/brand-assets",
+      //       external: true,
+      //     }
+      //   ],
+      // },
       {
         heading: "Social",
         items: [
@@ -120,26 +120,26 @@ export default {
           },
         ],
       },
-      {
-        heading: "Info",
-        items: [
-          {
-            label: "Contact",
-            url: "/contact",
-            external: false,
-          },
-          {
-            label: "FAQ",
-            url: "/faq",
-            external: false,
-          },
-          {
-            label: "Careers | Hiring!",
-            url: "/careers",
-            external: false,
-          },
-        ],
-      },
+      // {
+      //   heading: "Info",
+      //   items: [
+      //     {
+      //       label: "Contact",
+      //       url: "/contact",
+      //       external: false,
+      //     },
+      //     {
+      //       label: "FAQ",
+      //       url: "/faq",
+      //       external: false,
+      //     },
+      //     {
+      //       label: "Careers | Hiring!",
+      //       url: "/careers",
+      //       external: false,
+      //     },
+      //   ],
+      // },
     ]);
     return {
       menu,

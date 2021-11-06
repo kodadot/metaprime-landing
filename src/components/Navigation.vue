@@ -20,7 +20,7 @@
           <Logo />
         </a>
       </h1>
-      <nav
+      <!-- <nav
         :class="[
           { 'hidden': !show },
           `
@@ -95,7 +95,7 @@
         >
           <span class="block">Contact</span>
         </a>
-      </nav>
+      </nav> -->
 
       <div class="flex items-center justify-center h-full text-white lg:hidden">
         <button aria-label="Menu Button" @click="show = !show" :aria-expanded="show">
