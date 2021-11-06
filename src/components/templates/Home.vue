@@ -445,21 +445,21 @@
       <TagSecondary
         class="mb-4 md:py-10 bg-black text-white justify-start max-w-2xl"
       >
-        <img src="/assets/images/future1.png" alt="" loading="lazy" class="mr-10" />
+        <img src="/assets/images/future1.png" alt="" loading="lazy" class="mr-10 w-24" />
         Native Bridging with Solana, <br>
         Near, Flow, Ethereum"
       </TagSecondary>
       <TagSecondary
         class="mb-4 md:py-10 bg-black max-w-2xl"
       >
-        <img src="/assets/images/future2.png" alt="" loading="lazy" class="mr-10" />
+        <img src="/assets/images/future2.png" alt="" loading="lazy" class="mr-10 w-24" />
         Future development: <br>
         Cross chain atomic swaps
       </TagSecondary>
       <TagSecondary
         class="mb-4 md:py-10 bg-black max-w-2xl"
       >
-        <img src="/assets/images/future3.png" alt="" loading="lazy" class="mr-10" />
+        <img src="/assets/images/future3.png" alt="" loading="lazy" class="mr-10 w-24" />
         Integrations with HMD vendors <br>
         like Magic Leap, Hololens, <br>
         nReal, North Star
@@ -514,10 +514,10 @@
       <img src="/assets/logos/jsquare.png" alt="" loading="lazy">
       <img src="/assets/logos/trgc.png" alt="" loading="lazy">
     </div>
-    <Heading tag="h3">
+    <!-- <Heading tag="h3">
       Angel Inv <br>
       & Tweets
-    </Heading>
+    </Heading> -->
   </div>
 </section>
 <!-- Section 15 -->
