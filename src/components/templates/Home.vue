@@ -1,7 +1,7 @@
 <template>
 <!-- Section 1 -->
 <section>
-  <Hero v-bind="section1" class="xl:min-h-[36.875rem]">
+  <Hero v-bind="section1" :bg="bgPrimary" class="xl:min-h-[36.875rem]">
     Your vehicle for exploring and
     building immersive realities.
   </Hero>
@@ -26,7 +26,7 @@
 
 <!-- Section 3 -->
 <section>
-  <HeroCustom bg="/assets/backgrounds/lines-secondary.webp">
+  <HeroCustom v-bind="section3">
     <h2 class="font-semibold text-4xl lg:text-7xl leading-none uppercase">
       <span>An</span>
       <span class="text-primary">Experimental</span>,
@@ -264,7 +264,7 @@
 
 <!-- Section 10 -->
 <section class="py-10 md:py-20">
-  <HeroCustom bg="/assets/backgrounds/lines-secondary.webp" container-class="md:flex-col">
+  <HeroCustom :bg="bgSecondary"  container-class="md:flex-col">
     <div class="flex justify-start mb-10">
       <Content class="max-w-2xl px-16 py-8 border-2 border-secondary-light rounded-3xl">
         <p class="italic">
@@ -324,7 +324,7 @@
 
 <!-- Section 12 -->
 <section class="py-10 md:py-20">
-  <HeroCustom bg="/assets/backgrounds/lines-secondary.webp" class="overflow-visible">
+  <HeroCustom :bg="bgSecondary" class="overflow-visible">
     <Heading tag="h3">
       <span>
         Build
@@ -435,7 +435,7 @@
 
 <!-- Section 14 -->
 <section class="py-10 md:py-20">
-  <HeroCustom bg="/assets/backgrounds/lines-secondary.webp">
+  <HeroCustom :bg="bgSecondary" >
     <HeadingSecondary
       tag="h3"
       class="mb-6 md:mb-0"
@@ -529,7 +529,7 @@
 
 <!-- Section 16 -->
 <section class="py-10 md:py-20">
-  <HeroCustom bg="/assets/backgrounds/grid.webp">
+  <HeroCustom :bg="bgGrid">
     <HeadingSecondary
       tag="h3"
       class="mb-12 text-center"
@@ -595,7 +595,7 @@
 
 <!-- Section 18 -->
 <!-- <section>
-  <HeroCustom bg="/assets/backgrounds/lines.png">
+  <HeroCustom :bg="bgLines">
     <div class="flex flex-col flex-col-reverse lg:flex-row justify-between items-center">
       <div>
         <HeadingSecondary
@@ -660,6 +660,28 @@ export default {
     Content
   },
   setup () {
+    const bgPrimary = {
+      imageMobile: '/assets/backgrounds/lines-mobile.webp',
+      imageTablet: '/assets/backgrounds/lines-tablet.webp',
+      imageDesktop: '/assets/backgrounds/lines.webp',
+      alt: 'Background image',
+      lazy: false
+    }
+
+    const bgSecondary = {
+      imageMobile: '/assets/backgrounds/lines-secondary-mobile.webp',
+      imageTablet: '/assets/backgrounds/lines-secondary-tablet.webp',
+      imageDesktop: '/assets/backgrounds/lines-secondary.webp',
+      alt: 'Background image'
+    }
+
+    const bgGrid = {
+      imageMobile: '/assets/backgrounds/grid-mobile.webp',
+      imageTablet: '/assets/backgrounds/grid-tablet.webp',
+      imageDesktop: '/assets/backgrounds/grid.webp',
+      alt: 'Background image'
+    }
+
     const section1 = {
       heading: {
         tag: 'h2',
@@ -667,11 +689,11 @@ export default {
         secondLine: 'Metaverse'
       },
       img: {
-        url: '/assets/images/triangle.webp',
-        alt: ''
-      },
-      bg: '/assets/backgrounds/lines.webp',
-      bgLazy: false
+        imageMobile: '/assets/images/triangle-mobile.webp',
+        imageDesktop: '/assets/images/triangle.webp',
+        alt: 'Triangle',
+        lazy: false
+      }
     }
 
     const section2 = {
@@ -681,15 +703,26 @@ export default {
         secondLine: 'Buzzword'
       },
       img: {
-        url: '/assets/images/group.webp',
-        alt: '',
-        lazy: true
+        imageDesktop: '/assets/images/group.webp',
+        alt: 'Group',
+        lazy: false
+      }
+    }
+
+    const section3 = {
+      bg: {
+        ...bgSecondary,
+        lazy: false
       }
     }
 
     return {
       section1,
-      section2
+      section2,
+      section3,
+      bgPrimary,
+      bgSecondary,
+      bgGrid
     }
   }
 }

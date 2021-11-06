@@ -2,8 +2,11 @@
   <div
     class="relative overflow-hidden"
   >
-    <img v-if="bg" :src="bg" alt="" class="absolute -z-10 w-full h-full object-cover" loading="lazy">
-
+    <Picture
+      v-if="bg"
+      v-bind="bg"
+      img-class="absolute -z-10 w-full h-full object-cover"
+    />
     <div
       :class="[
         `container  py-10 md:py-20`,
@@ -14,14 +17,17 @@
     </div>
   </div>
 </template>
-
 <script>
+import Picture from '@/components/atoms/Picture'
 
 export default {
+  components: {
+    Picture
+  },
   props: {
     bg: {
-      type: String,
-      default: ''
+      type: Object,
+      default: () => {}
     },
     containerClass: {
       type: String,

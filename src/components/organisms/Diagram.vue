@@ -15,7 +15,6 @@
     <img
       src="/assets/images/diagram.webp"
       alt="Diagram"
-      loading="lazy"
       class="max-w-full"
     >
   </div>

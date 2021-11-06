@@ -2,7 +2,11 @@
   <div
     class="relative overflow-hidden"
   >
-    <img v-if="bg" :src="bg" alt="" class="absolute -z-10 w-full h-full object-cover" :loading="bgLazy">
+    <Picture
+      v-if="bg"
+      v-bind="bg"
+      img-class="absolute -z-10 w-full h-full object-cover"
+    />
     <div class="container flex flex-col md:flex-row justify-between py-10 md:py-20">
       <div class="relative flex flex-col mb-4 justify-center">
         <HeadingSecondary
@@ -12,13 +16,12 @@
           <slot />
         </Content>
       </div>
-      <img
-        v-if="img && img.url"
-        class="max-w-md object-contain"
-        :src="img.url"
-        :alt="img.alt"
-        :loading="img.lazy ? 'lazy' : undefined"
-      >
+
+      <Picture
+        v-if="img"
+        v-bind="img"
+        img-class="max-w-md object-contain"
+      />
     </div>
   </div>
 </template>
@@ -26,11 +29,13 @@
 <script>
 import HeadingSecondary from '@/components/atoms/HeadingSecondary'
 import Content from '@/components/atoms/Content'
+import Picture from '@/components/atoms/Picture'
 
 export default {
   components: {
     HeadingSecondary,
-    Content
+    Content,
+    Picture
   },
   props: {
     heading: {
@@ -46,12 +51,8 @@ export default {
       default: () => {}
     },
     bg: {
-      type: String,
-      default: ''
-    },
-    bgLazy: {
-      type: Boolean,
-      default: true
+      type: Object,
+      default: () => {}
     }
   },
   setup () {
