@@ -26,7 +26,7 @@
 
 <!-- Section 3 -->
 <section>
-  <HeroCustom v-bind="section3">
+  <HeroCustom bg="/assets/backgrounds/lines-secondary.webp">
     <h2 class="font-semibold text-4xl lg:text-7xl leading-none uppercase">
       <span>An</span>
       <span class="text-primary">Experimental</span>,
@@ -264,7 +264,7 @@
 
 <!-- Section 10 -->
 <section class="py-10 md:py-20">
-  <HeroCustom bg-class="after:bg-lines-secondary" container-class="md:flex-col">
+  <HeroCustom bg="/assets/backgrounds/lines-secondary.webp" container-class="md:flex-col">
     <div class="flex justify-start mb-10">
       <Content class="max-w-2xl px-16 py-8 border-2 border-secondary-light rounded-3xl">
         <p class="italic">
@@ -324,7 +324,7 @@
 
 <!-- Section 12 -->
 <section class="py-10 md:py-20">
-  <HeroCustom bg-class="after:bg-lines-secondary" class="overflow-visible">
+  <HeroCustom bg="/assets/backgrounds/lines-secondary.webp" class="overflow-visible">
     <Heading tag="h3">
       <span>
         Build
@@ -435,7 +435,7 @@
 
 <!-- Section 14 -->
 <section class="py-10 md:py-20">
-  <HeroCustom bg-class="after:bg-lines-secondary">
+  <HeroCustom bg="/assets/backgrounds/lines-secondary.webp">
     <HeadingSecondary
       tag="h3"
       class="mb-6 md:mb-0"
@@ -529,7 +529,7 @@
 
 <!-- Section 16 -->
 <section class="py-10 md:py-20">
-  <HeroCustom bg-class="after:bg-grid">
+  <HeroCustom bg="/assets/backgrounds/grid.webp">
     <HeadingSecondary
       tag="h3"
       class="mb-12 text-center"
@@ -595,7 +595,7 @@
 
 <!-- Section 18 -->
 <!-- <section>
-  <HeroCustom bg-class="after:bg-lines">
+  <HeroCustom bg="/assets/backgrounds/lines.png">
     <div class="flex flex-col flex-col-reverse lg:flex-row justify-between items-center">
       <div>
         <HeadingSecondary
@@ -670,7 +670,8 @@ export default {
         url: '/assets/images/triangle.webp',
         alt: ''
       },
-      bgClass: 'after:bg-lines'
+      bg: '/assets/backgrounds/lines.webp',
+      bgLazy: false
     }
 
     const section2 = {
@@ -686,19 +687,9 @@ export default {
       }
     }
 
-    const section3 = {
-      heading: {
-        tag: 'h2',
-        firstLine: 'What is this',
-        secondLine: 'Buzzword'
-      },
-      bgClass: 'after:bg-lines-secondary'
-    }
-
     return {
       section1,
-      section2,
-      section3
+      section2
     }
   }
 }

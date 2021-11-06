@@ -85,10 +85,7 @@ module.exports = {
       // gray: theme("colors.gray.500"),
     }),
     backgroundImage: (theme) => ({
-      ...theme("colors"),
-      'lines': "url('/assets/backgrounds/lines.webp')",
-      'lines-secondary': "url('/assets/backgrounds/lines-secondary.webp')",
-      'grid': "url('/assets/backgrounds/grid.webp')"
+      ...theme("colors")
     }),
     outline: {
       // dashed: ["1px dashed white", "1px"],

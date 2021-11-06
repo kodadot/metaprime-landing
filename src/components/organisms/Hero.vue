@@ -1,19 +1,9 @@
 <template>
   <div
-    :class="[`
-      relative overflow-hidden py-10 md:py-20
-      ${ bgClass ?
-        `after:bg-no-repeat after:bg-cover
-        after:absolute after:top-0 after:left-0
-        after:w-full after:h-full
-        after:-z-10
-        `
-          : '' }
-      `,
-      bgClass
-    ]"
+    class="relative overflow-hidden"
   >
-    <div class="container flex flex-col md:flex-row justify-between">
+    <img v-if="bg" :src="bg" alt="" class="absolute -z-10 w-full h-full object-cover" :loading="bgLazy">
+    <div class="container flex flex-col md:flex-row justify-between py-10 md:py-20">
       <div class="relative flex flex-col mb-4 justify-center">
         <HeadingSecondary
           v-bind="heading"
@@ -55,9 +45,13 @@ export default {
       type: Object,
       default: () => {}
     },
-    bgClass: {
+    bg: {
       type: String,
       default: ''
+    },
+    bgLazy: {
+      type: Boolean,
+      default: true
     }
   },
   setup () {
