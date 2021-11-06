@@ -4,15 +4,18 @@
       v-if="imageMobile"
       :srcset="imageMobile"
       media="(max-width: 479px)"
+      type='image/webp'
     >
     <source
       v-if="imageTablet"
       :srcset="imageTablet"
       media="(min-width: 480px) and (max-width: 1279px)"
+      type='image/webp'
     >
     <source
       :srcset="imageDesktop"
       media="(min-width: 1280px)"
+      type='image/webp'
     >
     <img
       :src="imageDefault"
