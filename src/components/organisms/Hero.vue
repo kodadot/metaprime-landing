@@ -20,7 +20,7 @@
       <Picture
         v-if="img"
         v-bind="img"
-        img-class="max-w-md object-contain"
+        img-class="max-w-xs md:max-w-md object-contain mx-auto md:mx-0"
       />
     </div>
   </div>

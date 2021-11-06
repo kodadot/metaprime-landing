@@ -71,12 +71,12 @@
       </Content>
     </div>
     <div>
-      <div class="mb-2 space-x-2 space-y-2">
+      <div class="flex flex-col items-start md:items-center md:flex-row mb-2 md:mb-4 md:space-x-2 space-y-2 md:space-y-0">
         <Tag content="DeFi" />
         <Tag content="Liquidity Pools" />
         <Tag content="Self-sovereign identity" />
       </div>
-      <div class="space-x-2 space-y-2">
+      <div class="flex flex-col items-start md:items-center md:flex-row md:space-x-2 space-y-2 md:space-y-0">
         <Tag content="Decentralized Governance" />
         <Tag content="Oracles" />
       </div>
@@ -266,7 +266,7 @@
 <section class="py-10 md:py-20">
   <HeroCustom :bg="bgSecondary"  container-class="md:flex-col">
     <div class="flex justify-start mb-10">
-      <Content class="max-w-2xl px-16 py-8 border-2 border-secondary-light rounded-3xl">
+      <Content class="max-w-2xl px-4 md:px-16 py-8 border-2 border-secondary-light rounded-3xl">
         <p class="italic">
           This Metaverse is going to be far more pervasive and powerful than anything else. If one central company gains control of this, they will become more powerful
           than any government, and be a god on Earth.
@@ -277,7 +277,7 @@
       </Content>
     </div>
     <div class="flex justify-end">
-      <Content class="max-w-2xl px-16 py-8 border-2 border-secondary-light rounded-3xl">
+      <Content class="max-w-2xl px-4 md:px-16 py-8 border-2 border-secondary-light rounded-3xl">
         <p class="italic">
           This Metaverse is going to be far more pervasive and powerful than anything else. If one central company gains control of this, they will become more powerful
           than any government, and be a god on Earth.
@@ -310,7 +310,7 @@
         </span>
       </span>
     </Heading>
-    <div>
+    <div class="w-full md:w-auto flex justify-center items-center">
       <img
         src="/assets/images/sierpinski.png"
         alt="Sierpinski triangle"
@@ -536,7 +536,7 @@
       second-line="Our Projects"
     />
     <div class="flex flex-col items-center space-y-10 lg:space-y-0  lg:space-x-10 lg:flex-row lg:justify-between">
-      <div class="max-w-[30.5rem] lg:min-h-[24rem] border-2 border-secondary bg-black p-4 rounded-3xl shadow-custom">
+      <div class="max-w-[30.5rem] lg:min-h-[24rem] border-2 border-secondary bg-black p-4 rounded-3xl md:shadow-custom">
         <div class="flex justify-between items-center">
           <img src="/assets/logos/metadata.png" alt="" loading="lazy">
           <Content>
@@ -546,13 +546,13 @@
         </div>
         <div class="relative w-[20.375rem]">
           <img src="/assets/images/shape.png" alt="" loading="lazy">
-          <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl uppercase">Permafrost</span>
+          <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-xl md:text-3xl uppercase">Permafrost</span>
         </div>
       </div>
-      <div class="max-w-[30.5rem] lg:min-h-[24rem] border-2 border-secondary bg-black p-4 rounded-3xl shadow-custom">
+      <div class="max-w-[30.5rem] lg:min-h-[24rem] border-2 border-secondary bg-black p-4 rounded-3xl md:shadow-custom">
         <div class="relative w-[20.375rem] ml-auto">
           <img src="/assets/images/shape.png" alt="" loading="lazy">
-          <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl uppercase">Kodadot</span>
+          <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-xl md:text-3xl uppercase">Kodadot</span>
         </div>
         <div class="flex justify-between items-center">
           <img src="/assets/logos/kodadot.png" alt="" loading="lazy">
@@ -623,7 +623,7 @@
 <!-- Section 18 -->
 
 <!-- Section 19 -->
-<section class="pt-28">
+<section class="md:pt-20">
   <div class="container">
     <Heading
       tag="h3"
