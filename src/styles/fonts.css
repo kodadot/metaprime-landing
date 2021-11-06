@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Montserrat;
+  src: local(Montserrat-Regular),
+    url(/assets/fonts/Montserrat-Regular.woff2) format('woff2'),
+    url(/assets/fonts/Montserrat-Regular.woff) format('woff'),
+    url(/assets/fonts/Montserrat-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: local(Montserrat-SemiBold),
+    url(/assets/fonts/Montserrat-SemiBold.woff2) format('woff2'),
+    url(/assets/fonts/Montserrat-SemiBold.woff) format('woff'),
+    url(/assets/fonts/Montserrat-SemiBold.ttf) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: local(Montserrat-Italic),
+    url(/assets/fonts/Montserrat-Italic.woff2) format('woff2'),
+    url(/assets/fonts/Montserrat-Italic.woff) format('woff'),
+    url(/assets/fonts/Montserrat-Italic.ttf) format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: local(WorkSans-SemiBold),
+    url(/assets/fonts/WorkSans-SemiBold.woff2) format('woff2'),
+    url(/assets/fonts/WorkSans-SemiBold.woff) format('woff'),
+    url(/assets/fonts/WorkSans-SemiBold.ttf) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
