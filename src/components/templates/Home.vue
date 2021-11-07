@@ -634,8 +634,8 @@
 <!-- Section 17 -->
 
 <!-- Section 18 -->
-<!-- <section>
-  <HeroCustom :bg="bgLines">
+<section class="pb-10 md:pb-20">
+  <HeroCustom :bg="bgPrimary">
     <div class="flex flex-col flex-col-reverse lg:flex-row justify-between items-center">
       <div>
         <HeadingSecondary
@@ -648,10 +648,41 @@
           and development via newsletter.
         </Content>
         <div class="relative max-w-lg">
-          <input type="email" placeholder="Enter your email..." class="w-full h-14 px-5 py-4 rounded-3xl text-gray-500 font-semibold pr-64">
-          <a href="#" class="absolute right-0 top-0 inline-flex bg-primary text-black font-semibold text-2xl uppercase rounded-3xl px-12 py-3">
-            Subscribe
-          </a>
+          <form
+            action="https://www.getrevue.co/profile/metaprimenetwork/add_subscriber"
+            method="post"
+            id="revue-form"
+            name="revue-form"
+            target="_blank"
+          >
+            <label
+              for="member_email"
+              class="hidden"
+            >
+              Email address
+            </label>
+            <input
+              type="email"
+              placeholder="Enter your email..."
+              name="member[email]"
+              id="member_email"
+              class="w-full h-14 px-5 py-4 mb-4 md:mb-0 rounded-3xl text-gray-500 font-semibold md:pr-64"
+              required
+            >
+
+            <div class="mb-4">
+              <input
+                type="submit"
+                value="Subscribe"
+                name="member[subscribe]"
+                class="md:absolute right-0 top-0 inline-flex bg-primary text-black font-semibold text-2xl uppercase rounded-3xl px-12 py-3 cursor-pointer"
+                id="member_submit"
+              >
+            </div>
+            <p>
+              By subscribing, you agree with Revue’s <a target="_blank" class="underline" rel="noopener noreferrer" href="https://www.getrevue.co/terms">Terms of Service</a> and <a target="_blank" class="underline" rel="noopener noreferrer" href="https://www.getrevue.co/privacy">Privacy Policy</a>.
+            </p>
+          </form>
         </div>
       </div>
       <div class="mb-10">
@@ -659,7 +690,7 @@
       </div>
     </div>
   </HeroCustom>
-</section> -->
+</section>
 <!-- Section 18 -->
 
 <!-- Section 19 -->
