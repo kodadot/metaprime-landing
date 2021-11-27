@@ -45,9 +45,9 @@
 </template>
 
 <script>
-import Heading from '@/components/atoms/Heading'
-import Content from '@/components/atoms/Content'
-import Hero from '@/components/organisms/Hero'
+import Heading from '@/components/atoms/Heading.vue'
+import Content from '@/components/atoms/Content.vue'
+import Hero from '@/components/organisms/Hero.vue'
 
 export default {
   components: {
