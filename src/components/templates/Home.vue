@@ -266,7 +266,7 @@
 <section class="py-10 md:py-20">
   <HeroCustom :bg="bgSecondary"  container-class="md:flex-col">
     <div class="flex justify-start mb-10">
-      <Content class="max-w-2xl px-4 md:px-16 py-8 border-2 border-secondary-light rounded-3xl">
+      <Content class="max-w-2xl px-4 md:px-16 py-8 border-2 border-secondary-light rounded-3xl bg-black">
         <p class="italic">
           This Metaverse is going to be far more pervasive and powerful than anything else. If one central company gains control of this, they will become more powerful
           than any government, and be a god on Earth.
@@ -277,13 +277,9 @@
       </Content>
     </div>
     <div class="flex justify-end">
-      <Content class="max-w-2xl px-4 md:px-16 py-8 border-2 border-secondary-light rounded-3xl">
+      <Content class="max-w-2xl px-4 md:px-16 py-8 border-2 border-secondary-light rounded-3xl bg-black">
         <p class="italic">
-          This Metaverse is going to be far more pervasive and powerful than anything else. If one central company gains control of this, they will become more powerful
-          than any government, and be a god on Earth.
-        </p>
-        <p class="font-semibold">
-          - Tim Sweeney
+          With time, an open Metaverse built on shared open source protocols, open infrastructure, and a single unifying (yet open) financial system will erode, or ‘eat,’ and potentially eventually replace closed platforms due to powerful network effects.
         </p>
       </Content>
     </div>
