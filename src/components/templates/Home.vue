@@ -595,7 +595,7 @@
           <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-xl md:text-3xl uppercase">Kodadot</span>
         </div>
         <div class="flex justify-between items-center">
-          <img src="/assets/logos/kodadot.png" alt="" loading="lazy">
+          <img src="/assets/logos/kodadot.png" alt="" loading="lazy" class="w-1/2 md:w-auto">
           <Content>
             Scaffold boilerplate
             to drive utility of
