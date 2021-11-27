@@ -15,10 +15,12 @@ export default {
     // tailwindConfig: './tailwind.config.js',     // Path to tailwind.config.js if used, e.g. './tailwind.config.js'
   },
   renderers: [
-    "@astrojs/renderer-vue"
+    "@jkrupinski/renderer-vue"
   ],
   vite: {
-    plugins: [svgLoader()],
+    plugins: [
+      svgLoader()
+    ],
     resolve: {
       alias: {
         '@': '/src',

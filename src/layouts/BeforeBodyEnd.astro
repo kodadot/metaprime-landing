@@ -1,0 +1,21 @@
+<script type="module">
+  const body = document.body;
+  let loaded = false;
+
+  const onInteraction = () => {
+    if (loaded === true) {
+      return;
+    }
+    loaded = true;
+
+    const modelViewer = document.createElement('script');
+    modelViewer.type = 'module';
+    modelViewer.src = '/js/model-viewer/model-viewer.min.js';
+    body.appendChild(modelViewer);
+  };
+
+  body.addEventListener('mouseover', onInteraction, {once:true});
+  body.addEventListener('touchmove', onInteraction, {once:true});
+  body.addEventListener('scroll', onInteraction, {once:true});
+  body.addEventListener('keydown', onInteraction, {once:true});
+</script>
