@@ -18,7 +18,7 @@
   </div>
 </template>
 <script>
-import Picture from '@/components/atoms/Picture'
+import Picture from '@/components/atoms/Picture.vue'
 
 export default {
   components: {

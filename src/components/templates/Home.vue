@@ -711,11 +711,11 @@
 </template>
 
 <script>
-import Heading from '@/components/atoms/Heading'
-import HeadingSecondary from '@/components/atoms/HeadingSecondary'
-import Hero from '@/components/organisms/Hero'
-import HeroCustom from '@/components/organisms/HeroCustom'
-import Diagram from '@/components/organisms/Diagram'
+import Heading from '@/components/atoms/Heading.vue'
+import HeadingSecondary from '@/components/atoms/HeadingSecondary.vue'
+import Hero from '@/components/organisms/Hero.vue'
+import HeroCustom from '@/components/organisms/HeroCustom.vue'
+import Diagram from '@/components/organisms/Diagram.vue'
 import Tag from '@/components/atoms/Tag.vue'
 import TagSecondary from '@/components/atoms/TagSecondary.vue'
 import Content from '@/components/atoms/Content.vue'

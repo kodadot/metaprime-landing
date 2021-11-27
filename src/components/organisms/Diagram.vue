@@ -24,7 +24,7 @@
 
 <script>
 import MetaPrime from '@/assets/images/meta-prime.svg'
-import Picture from '@/components/atoms/Picture'
+import Picture from '@/components/atoms/Picture.vue'
 
 export default {
   components: {

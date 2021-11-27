@@ -27,9 +27,9 @@
 </template>
 
 <script>
-import HeadingSecondary from '@/components/atoms/HeadingSecondary'
-import Content from '@/components/atoms/Content'
-import Picture from '@/components/atoms/Picture'
+import HeadingSecondary from '@/components/atoms/HeadingSecondary.vue'
+import Content from '@/components/atoms/Content.vue'
+import Picture from '@/components/atoms/Picture.vue'
 
 export default {
   components: {
