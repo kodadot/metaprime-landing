@@ -15,7 +15,7 @@ export default {
     // tailwindConfig: './tailwind.config.js',     // Path to tailwind.config.js if used, e.g. './tailwind.config.js'
   },
   renderers: [
-    "@jkrupinski/renderer-vue"
+    '@astrojs/renderer-vue'
   ],
   vite: {
     plugins: [
