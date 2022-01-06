@@ -1,6 +1,7 @@
 <template>
+<div class="md:flex md:flex-col-reverse">
   <div
-    class="relative overflow-hidden"
+    class="relative overflow-hidden mb-8"
   >
     <Picture
       v-if="bg"
@@ -8,7 +9,7 @@
       img-class="absolute -z-10 w-full h-full object-cover"
     />
     <div class="container flex flex-col md:flex-row justify-between py-10 md:py-20">
-      <div class="relative flex flex-col mb-4 justify-center">
+      <div class="container relative hidden md:flex flex-col mb-4 justify-center">
         <HeadingSecondary
           v-bind="heading"
         />
@@ -23,9 +24,18 @@
         img-class="max-w-xs md:max-w-md object-contain mx-auto md:mx-0"
       />
 
-      <ModelViewer v-if="showModelViewer" :poster="img" />
+      <!-- <ModelViewer v-if="showModelViewer" :poster="img" /> -->
     </div>
   </div>
+  <div class="container relative md:hidden flex flex-col mb-4 justify-center">
+    <HeadingSecondary
+      v-bind="heading"
+    />
+    <Content>
+      <slot />
+    </Content>
+  </div>
+</div>
 </template>
 
 <script>

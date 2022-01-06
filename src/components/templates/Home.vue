@@ -1,7 +1,7 @@
 <template>
 <!-- Section 1 -->
 <section>
-  <Hero v-bind="section1" :bg="bgPrimary" showModelViewer class="xl:min-h-[36.875rem]">
+  <Hero v-bind="section1" :bg="bgPrimary" class="xl:min-h-[36.875rem]">
     Your vehicle for exploring and
     building immersive realities.
   </Hero>
