@@ -101,7 +101,7 @@ module.exports = {
       addComponents({
         '.container': {
           margin: '0 auto',
-          padding: '0 16px',
+          padding: '0 24px',
           width: '100%',
           '@screen xl': {
             maxWidth: '1156px',
