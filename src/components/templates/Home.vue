@@ -40,6 +40,64 @@
 
 <!-- Section 4 -->
 <section class="py-10 md:py-20">
+  <div class="container">
+    <h2 class="font-semibold text-3xl lg:text-7xl leading-none uppercase mb-10">
+      <span class="text-primary">WHO IS METAPRIME FOR?</span>
+    </h2>
+    <div class="md:flex justify-between items-center px-8 py-6 md:px-16 border-2 border-primary rounded-2xl mb-7">
+      <div class="flex justify-center item-center">
+        <img
+          src="/assets/images/developer.png"
+          alt="Developer image"
+          class="max-w-[9.625rem] xl:max-w-none mb-10 md:mr-12 lg:mr-0"
+          loading="lazy"
+        >
+      </div>
+      <div class="md:flex md:flex-col md:items-start">
+        <h3 class="text-primary text-xl md:text-2xl font-semibold uppercase mb-6 md:mb-3">
+        Developers
+        </h3>
+        <Content class="mb-10">
+          Do you want to help build the infrastructure of the open metaverse?
+          Perhaps you have are a gaming coder and you wish to build a no-code gaming engine. If so, give us a shout!
+        </Content>
+        <div class="flex justify-center">
+          <a href="#" class="uppercase px-4 md:px-12 py-3 text-xl text-black font-semibold bg-primary rounded-2xl">
+          Jump on board
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="md:flex justify-between items-center px-8 py-6 md:px-16 border-2 border-primary rounded-2xl mb-7">
+      <div class="flex justify-center item-center">
+        <img
+          src="/assets/images/architect.png"
+          alt="Developer image"
+          class="max-w-[9.625rem] xl:max-w-none mb-10 md:mr-12 lg:mr-0"
+          loading="lazy"
+        >
+      </div>
+      <div class="md:flex md:flex-col md:items-start">
+        <h3 class="text-primary text-xl md:text-2xl font-semibold uppercase mb-6 md:mb-3">
+          Architects
+        </h3>
+        <Content class="mb-10">
+          You are a 3D modeller, maybe you make AR fashion, avatars or immersive environments.
+          Unleash your creativity by building within Metaprime.
+        </Content>
+        <div class="flex justify-center">
+          <a href="#" class="uppercase px-4 md:px-12 py-3 text-xl text-black font-semibold bg-primary rounded-2xl">
+          Jump on board
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Section 4 -->
+
+<!-- Section 4 -->
+<section class="py-10 md:py-20">
   <Diagram />
 </section>
 <!-- Section 4 -->
