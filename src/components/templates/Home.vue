@@ -105,6 +105,7 @@
 <!-- Section 5 -->
 <section class="py-10 md:py-20">
   <div class="container">
+    <Disclosure />
     <Heading class="mb-16" tag="h3">
       WEB 3.0 TOOLBOX FOR <br>
       THE OPEN METAVERSE
@@ -773,6 +774,7 @@ import Diagram from '@/components/organisms/Diagram.vue'
 import Tag from '@/components/atoms/Tag.vue'
 import TagSecondary from '@/components/atoms/TagSecondary.vue'
 import Content from '@/components/atoms/Content.vue'
+import Disclosure from '@/components/atoms/Disclosure.vue'
 export default {
   components: {
     Hero,
@@ -782,7 +784,8 @@ export default {
     HeadingSecondary,
     Tag,
     TagSecondary,
-    Content
+    Content,
+    Disclosure
   },
   setup () {
     const bgPrimary = {
