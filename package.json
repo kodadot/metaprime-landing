@@ -10,13 +10,13 @@
   },
   "devDependencies": {
     "@astrojs/renderer-vue": "^0.3.0",
-    "astro": "^0.22.6",
+    "astro": "^0.22.11",
     "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.11",
-    "vite-svg-loader": "^3.1.1"
+    "tailwindcss": "^3.0.13",
+    "vite-svg-loader": "^3.1.2"
   },
   "dependencies": {
-    "@google/model-viewer": "^1.9.2",
+    "@google/model-viewer": "^1.10.0",
     "@headlessui/vue": "^1.4.2"
   }
 }

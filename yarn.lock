@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@astrojs/compiler@^0.7.2":
+"@astrojs/compiler@^0.7.4":
   version "0.7.4"
   resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-0.7.4.tgz#f32559254c715af36e3169c33c717fc2a084b71a"
   integrity sha512-CgKxhVYpfzr9Nox+79IGCd9IszEGIVhYCDl1am+LeAvpIVage9YE8YLVY0r+Ow8LaK26uqko/ae06+DmGDtU5w==
@@ -92,10 +92,10 @@
     "@vitejs/plugin-vue" "^1.9.4"
     vue "^3.2.22"
 
-"@astropub/webapi@^0.7.3":
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/@astropub/webapi/-/webapi-0.7.4.tgz#a24d4d5412b580d687b92cc043b3289cb1d1f34a"
-  integrity sha512-LpGMWrI0SWGCWol9Em4/wcAtiQHQFV3MoQUYzdpCRWg1UOpXi38d+2xDtWWEgOxb433IXLYQ6XubLLqIx5m3bQ==
+"@astropub/webapi@^0.10.1":
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/@astropub/webapi/-/webapi-0.10.2.tgz#b1416fb05875cfe06e7c6d1a5d25a73f9ad54b7e"
+  integrity sha512-h1ZdhIPlE90iCf+DTTk60nzG3Bjo43NRHNUOUAdPg/8LA3C60ebq62oq8rTaNozoNLyPXrlC/Ig2YSs7KMquiA==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.14.5":
   version "7.15.8"
@@ -437,10 +437,10 @@
   resolved "https://registry.yarnpkg.com/@emmetio/scanner/-/scanner-1.0.0.tgz#065b2af6233fe7474d44823e3deb89724af42b5f"
   integrity sha512-8HqW8EVqjnCmWXVpqAOZf+EGESdkR27odcMMMGefgKXtar00SoYNSryGv//TELI4T3QFsECo78p+0lmalk/CFA==
 
-"@google/model-viewer@^1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@google/model-viewer/-/model-viewer-1.9.2.tgz#aa57d36b172a16622ce27397dc0250670160ff86"
-  integrity sha512-bFn6TJPvPHZDPQ0vYOx1O57A5t4cVjpxaYyYeq2OqOpbZ6+Rkq1PLdyYx8Do7Id1ZPr6WqOaIAxajZ7Jy56G/g==
+"@google/model-viewer@^1.10.0":
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/@google/model-viewer/-/model-viewer-1.10.0.tgz#55bc9979fa2bcd3f8dabd98f4157fae416d71892"
+  integrity sha512-Ytucq6pZwL8MAOag4g3cJjhV6SkxF1OnonqJHw29/OCOKoooUPvpbtZs3zv37umm+R7by9G2kwdT8ZeSK5vt4g==
 
 "@headlessui/vue@^1.4.2":
   version "1.4.2"
@@ -841,12 +841,12 @@ astring@^1.7.5:
   resolved "https://registry.yarnpkg.com/astring/-/astring-1.7.5.tgz#a7d47fceaf32b052d33a3d07c511efeec67447ca"
   integrity sha512-lobf6RWXb8c4uZ7Mdq0U12efYmpD1UFnyOWVJPTa3ukqZrMopav+2hdNu0hgBF0JIBFK9QgrBDfwYvh3DFJDAA==
 
-astro@^0.22.6:
-  version "0.22.6"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-0.22.6.tgz#e3b6b47e7fd3999cd6695c42618805adba0a3d92"
-  integrity sha512-cP+5xEqK5EDauHVKoHH4aShhWDKwQTDWWnRyPfWT6ZH/06IwwD6rzkw1lMWKZzPdbwtve4HuW36sN7Zr0B7Jtw==
+astro@^0.22.11:
+  version "0.22.11"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-0.22.11.tgz#f417d300e77319b802bbbdc878696fdd2c510142"
+  integrity sha512-/z+G3wRQlwX6OZkhRPXBj3We8uOd7wnCJYz5/9O3dyBvN1+uGm2MgpQNzk1UTuq6WWJ/Ds42qxpNP1jwGnu1NQ==
   dependencies:
-    "@astrojs/compiler" "^0.7.2"
+    "@astrojs/compiler" "^0.7.4"
     "@astrojs/language-server" "^0.8.6"
     "@astrojs/markdown-remark" "^0.6.0"
     "@astrojs/prism" "0.4.0"
@@ -854,7 +854,7 @@ astro@^0.22.6:
     "@astrojs/renderer-react" "0.4.0"
     "@astrojs/renderer-svelte" "0.3.1"
     "@astrojs/renderer-vue" "0.3.0"
-    "@astropub/webapi" "^0.7.3"
+    "@astropub/webapi" "^0.10.1"
     "@babel/core" "^7.15.8"
     "@babel/traverse" "^7.15.4"
     "@proload/core" "^0.2.1"
@@ -863,6 +863,7 @@ astro@^0.22.6:
     "@web/parse5-utils" "^1.3.0"
     astring "^1.7.5"
     ci-info "^3.2.0"
+    common-ancestor-path "^1.0.1"
     connect "^3.7.0"
     eol "^0.9.1"
     es-module-lexer "^0.9.3"
@@ -1085,6 +1086,11 @@ commander@^7.2.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
   integrity sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==
+
+common-ancestor-path@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/common-ancestor-path/-/common-ancestor-path-1.0.1.tgz#4f7d2d1394d91b7abdf51871c62f71eadb0182a7"
+  integrity sha512-L3sHRo1pXXEqX8VU28kfgUY+YGsk09hPqZiZmLacNib6XNTCM8ubYeT7ryXQw8asB1sKgcU5lkB7ONug08aB8w==
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -2130,6 +2136,13 @@ is-core-module@^2.2.0:
   dependencies:
     has "^1.0.3"
 
+is-core-module@^2.8.0:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.8.1.tgz#f59fdfca701d5879d0a6b100a40aa1560ce27211"
+  integrity sha512-SdNCUs284hr40hFTFP6l0IfZ/RSrMXF3qgoRHd3/79unUTvrFO/JoXwkGm+5J/Oe3E/b5GsnG330uUNgRpu1PA==
+  dependencies:
+    has "^1.0.3"
+
 is-date-object@^1.0.1:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/is-date-object/-/is-date-object-1.0.5.tgz#0841d5536e724c25597bf6ea62e1bd38298df31f"
@@ -3099,7 +3112,7 @@ path-is-absolute@^1.0.0:
   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
-path-parse@^1.0.6:
+path-parse@^1.0.6, path-parse@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
   integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
@@ -3160,7 +3173,7 @@ postcss-selector-parser@^6.0.6:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
 
-postcss-selector-parser@^6.0.7:
+postcss-selector-parser@^6.0.8:
   version "6.0.8"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.8.tgz#f023ed7a9ea736cd7ef70342996e8e78645a7914"
   integrity sha512-D5PG53d209Z1Uhcc0qAZ5U3t5HagH3cxu+WLZ22jt3gLUpXM4eXXfiO14jiDWST3NNooX/E8wISfOhZ9eIjGTQ==
@@ -3357,6 +3370,15 @@ resolve@^1.17.0, resolve@^1.20.0:
   dependencies:
     is-core-module "^2.2.0"
     path-parse "^1.0.6"
+
+resolve@^1.21.0:
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.21.0.tgz#b51adc97f3472e6a5cf4444d34bc9d6b9037591f"
+  integrity sha512-3wCbTpk5WJlyE4mSOtDLhqQmGFi0/TD9VPwmiolnk8U0wRgMEktqCXd3vy5buTO3tljvalNvKrjHEfrd2WpEKA==
+  dependencies:
+    is-core-module "^2.8.0"
+    path-parse "^1.0.7"
+    supports-preserve-symlinks-flag "^1.0.0"
 
 retext-latin@^3.0.0:
   version "3.1.0"
@@ -3692,6 +3714,11 @@ supports-esm@^1.0.0:
   dependencies:
     has-package-exports "^1.1.0"
 
+supports-preserve-symlinks-flag@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
+  integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
 svelte-hmr@^0.14.7:
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.7.tgz#7fa8261c7b225d9409f0a86f3b9ea5c3ca6f6607"
@@ -3727,10 +3754,10 @@ svgo@^2.7.0:
     picocolors "^1.0.0"
     stable "^0.1.8"
 
-tailwindcss@^3.0.11:
-  version "3.0.11"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.0.11.tgz#c4e96cada1f693cba66269eef80c74d22331c767"
-  integrity sha512-JyMsQ2kPqpOvG8ow535XpauXj3wz3nQqcy2tVlXj4FQ0eNlsdzvlAqpRA3q5rPLboWirNG6r2DqKczwjW2uc8Q==
+tailwindcss@^3.0.13:
+  version "3.0.13"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.0.13.tgz#0d571643bfc8c76602bbba95a780a9552ae44c64"
+  integrity sha512-raRPGFwQSGXn/3h0ttHND9jyPYfqk/ur2NXtlQuK25+ZnrCjlH1s1j4/oPswHGMoZzGNykUVycZ/LcROanUE0A==
   dependencies:
     arg "^5.0.1"
     chalk "^4.1.2"
@@ -3748,10 +3775,10 @@ tailwindcss@^3.0.11:
     postcss-js "^4.0.0"
     postcss-load-config "^3.1.0"
     postcss-nested "5.0.6"
-    postcss-selector-parser "^6.0.7"
+    postcss-selector-parser "^6.0.8"
     postcss-value-parser "^4.2.0"
     quick-lru "^5.1.1"
-    resolve "^1.20.0"
+    resolve "^1.21.0"
 
 to-fast-properties@^2.0.0:
   version "2.0.0"
@@ -4024,10 +4051,10 @@ vfile@^5.0.0:
     unist-util-stringify-position "^3.0.0"
     vfile-message "^3.0.0"
 
-vite-svg-loader@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/vite-svg-loader/-/vite-svg-loader-3.1.1.tgz#c87f31ed69aadbdcc4b2c8c4b0de9ed82931dfc0"
-  integrity sha512-riUVb096oYgF+DHHtXPNJIaceFyqGDAjxJE0/aXsz2TW8G/27f4p1e+RZXrltI06Q3GcyB1V4DSoc+Tq6aQSQw==
+vite-svg-loader@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/vite-svg-loader/-/vite-svg-loader-3.1.2.tgz#e701d6f5d42969eac2b3c40fea9d4159bfa27be3"
+  integrity sha512-op5ENc3eo1K1YlufQtdyAcxxXtiWJHyimH9y573ZWhj/9cw5x3ZtYhOEQua7MugclTa9mnZTzuir0rfTCkVyiQ==
   dependencies:
     "@vue/compiler-sfc" "^3.2.20"
     svgo "^2.7.0"
