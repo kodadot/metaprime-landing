@@ -16,7 +16,7 @@
           v-bind="poster"
           img-class="max-w-xs md:max-w-md object-contain mx-auto md:mx-0"
         />
-        <img class="pre-prompt" src="/assets/images/prompt.svg">
+        <Prompt />
       </div>
 
       <button class="ar-button" slot="ar-button">
@@ -32,10 +32,12 @@
 
 <script>
 import Picture from '@/components/atoms/Picture.vue'
+import Prompt from '@/assets/images/prompt.svg'
 
 export default {
   components: {
-    Picture
+    Picture,
+    Prompt
   },
   props: {
     poster: {
