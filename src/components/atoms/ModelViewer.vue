@@ -1,38 +1,13 @@
 <template>
   <div class="model-viewer">
-    <model-viewer
-      id="model-viewer"
-      alt="Sierpinski triangle"
-      src="/assets/models/sierpinski.gltf"
-      ar
-      ar-modes="webxr scene-viewer quick-look"
-      poster="/assets/images/triangle.webp"
-      shadow-intensity="1"
-      camera-controls
-    >
-      <div class="poster" slot="poster" style="background-image: url(/assets/images/triangle.webp);">
-        <Picture
-          class="poster"
-          v-bind="poster"
-          img-class="max-w-xs md:max-w-md object-contain mx-auto md:mx-0"
-        />
-        <Prompt />
-      </div>
 
-      <button class="ar-button" slot="ar-button">
-        View in your space
-      </button>
-
-      <div class="ar-prompt">
-        <img src="/assets/images/hand.png">
-      </div>
-    </model-viewer>
   </div>
 </template>
 
 <script>
 import Picture from '@/components/atoms/Picture.vue'
 import Prompt from '@/assets/images/prompt.svg'
+import '@google/model-viewer'
 
 export default {
   components: {
@@ -46,8 +21,6 @@ export default {
     }
   },
   setup () {
-
-
     return {}
   }
 }

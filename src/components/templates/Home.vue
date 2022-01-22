@@ -1,10 +1,49 @@
 <template>
 <!-- Section 1 -->
 <section>
-  <Hero v-bind="section1" :bg="bgPrimary">
-    Your vehicle for exploring and
-    building immersive realities.
-  </Hero>
+  <div class="md:flex md:flex-col-reverse">
+    <div
+      class="relative overflow-hidden mb-8"
+    >
+      <Picture
+        v-bind="bgPrimary"
+        img-class="absolute -z-10 w-full h-full object-cover"
+      />
+      <div class="container flex flex-col md:flex-row justify-between py-10 md:py-20">
+        <div class="container relative hidden md:flex flex-col mb-4 justify-center">
+          <HeadingSecondary
+            v-bind="section1.heading"
+          />
+          <Content>
+          Your vehicle for exploring and
+            building immersive realities.
+          </Content>
+        </div>
+
+        <model-viewer
+          class="model-viewer w-full"
+          alt="Sierpinski Triangle"
+          src="/assets/models/sierpinski.gltf"
+          ar
+          ar-modes="webxr scene-viewer quick-look"
+          poster="/assets/images/triangle.webp"
+          seamless-poster
+          shadow-intensity="1"
+          camera-controls
+        >
+        </model-viewer>
+      </div>
+    </div>
+    <div class="container relative md:hidden flex flex-col mb-4 justify-center">
+      <HeadingSecondary
+        v-bind="section1.heading"
+      />
+      <Content>
+        Your vehicle for exploring and
+        building immersive realities.
+      </Content>
+    </div>
+  </div>
 </section>
 <!-- Section 1 -->
 
@@ -840,6 +879,9 @@ import Tag from '@/components/atoms/Tag.vue'
 import TagSecondary from '@/components/atoms/TagSecondary.vue'
 import Content from '@/components/atoms/Content.vue'
 import Disclosure from '@/components/atoms/Disclosure.vue'
+import Picture from '@/components/atoms/Picture.vue'
+import '@google/model-viewer'
+
 export default {
   components: {
     Hero,
@@ -850,7 +892,8 @@ export default {
     Tag,
     TagSecondary,
     Content,
-    Disclosure
+    Disclosure,
+    Picture
   },
   setup () {
     const bgPrimary = {
@@ -925,3 +968,15 @@ export default {
   }
 }
 </script>
+
+<style>
+  model-viewer {
+    --poster-color: transparent;
+    --progress-mask: transparent;
+    --progress-bar: transparent;
+    --progress-bar-height: 0;
+    --ar-button-display: none;
+
+    height: 50vh;
+  }
+</style>
