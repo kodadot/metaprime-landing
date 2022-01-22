@@ -9,7 +9,7 @@
         v-bind="bgPrimary"
         img-class="absolute -z-10 w-full h-full object-cover"
       />
-      <div class="container flex flex-col md:flex-row justify-between py-10 md:py-20">
+      <div class="relative container flex flex-col items-center lg:flex-row justify-between py-10 md:py-20">
         <div class="container relative hidden md:flex flex-col mb-4 justify-center">
           <HeadingSecondary
             v-bind="section1.heading"
@@ -20,18 +20,24 @@
           </Content>
         </div>
 
-        <model-viewer
-          class="model-viewer w-full"
-          alt="Sierpinski Triangle"
-          src="/assets/models/sierpinski.gltf"
-          ar
-          ar-modes="webxr scene-viewer quick-look"
-          poster="/assets/images/triangle.webp"
-          seamless-poster
-          shadow-intensity="1"
-          camera-controls
-        >
-        </model-viewer>
+        <div class="flex justify-center items-center w-full h-[408px]">
+          <model-viewer
+            ref="modelViewer"
+            class="model-viewer w-full h-full"
+            alt="Sierpinski Triangle"
+            src="/assets/models/sierpinski.gltf"
+            ar
+            ar-modes="webxr scene-viewer quick-look"
+            seamless-poster
+            shadow-intensity="1"
+            camera-controls
+            min-camera-orbit='auto auto 100%'
+            max-camera-orbit='auto auto 100%'
+            min-field-of-view='35deg'
+            max-field-of-view='360deg'
+          >
+          </model-viewer>
+        </div>
       </div>
     </div>
     <div class="container relative md:hidden flex flex-col mb-4 justify-center">
@@ -870,6 +876,7 @@
 </template>
 
 <script>
+import { ref, onMounted } from 'vue'
 import Heading from '@/components/atoms/Heading.vue'
 import HeadingSecondary from '@/components/atoms/HeadingSecondary.vue'
 import Hero from '@/components/organisms/Hero.vue'
@@ -896,6 +903,14 @@ export default {
     Picture
   },
   setup () {
+    const modelViewer = ref(null)
+
+    onMounted(() => {
+      console.log(modelViewer.value)
+      // debugger
+      // modelViewer.zoom(50)
+    })
+
     const bgPrimary = {
       imageMobile: '/assets/backgrounds/lines-mobile.webp',
       imageTablet: '/assets/backgrounds/lines-tablet.webp',
@@ -963,7 +978,8 @@ export default {
       section3,
       bgPrimary,
       bgSecondary,
-      bgGrid
+      bgGrid,
+      modelViewer
     }
   }
 }
