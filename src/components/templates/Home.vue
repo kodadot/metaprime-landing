@@ -9,7 +9,7 @@
         v-bind="bgPrimary"
         img-class="absolute -z-10 w-full h-full object-cover"
       />
-      <div class="relative container flex flex-col items-center lg:flex-row justify-between py-10 md:py-20">
+      <div class="relative container flex flex-col items-center lg:flex-row justify-between p-0">
         <div class="container relative hidden md:flex flex-col mb-4 justify-center">
           <HeadingSecondary
             v-bind="section1.heading"
@@ -906,9 +906,7 @@ export default {
     const modelViewer = ref(null)
 
     onMounted(() => {
-      console.log(modelViewer.value)
-      // debugger
-      // modelViewer.zoom(50)
+
     })
 
     const bgPrimary = {
@@ -992,7 +990,5 @@ export default {
     --progress-bar: transparent;
     --progress-bar-height: 0;
     --ar-button-display: none;
-
-    height: 50vh;
   }
 </style>
