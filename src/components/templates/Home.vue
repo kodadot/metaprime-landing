@@ -1,10 +1,55 @@
 <template>
 <!-- Section 1 -->
 <section>
-  <Hero v-bind="section1" :bg="bgPrimary">
-    Your vehicle for exploring and
-    building immersive realities.
-  </Hero>
+  <div class="md:flex md:flex-col-reverse">
+    <div
+      class="relative overflow-hidden mb-8"
+    >
+      <Picture
+        v-bind="bgPrimary"
+        img-class="absolute -z-10 w-full h-full object-cover"
+      />
+      <div class="relative container flex flex-col items-center lg:flex-row justify-between p-0">
+        <div class="container relative hidden md:flex flex-col mb-4 justify-center">
+          <HeadingSecondary
+            v-bind="section1.heading"
+          />
+          <Content>
+          Your vehicle for exploring and
+            building immersive realities.
+          </Content>
+        </div>
+
+        <div class="flex justify-center items-center w-full h-[408px]">
+          <model-viewer
+            ref="modelViewer"
+            class="model-viewer w-full h-full"
+            alt="Sierpinski Triangle"
+            src="/assets/models/sierpinski.gltf"
+            ar
+            ar-modes="webxr scene-viewer quick-look"
+            seamless-poster
+            shadow-intensity="1"
+            camera-controls
+            min-camera-orbit='auto auto 100%'
+            max-camera-orbit='auto auto 100%'
+            min-field-of-view='35deg'
+            max-field-of-view='360deg'
+          >
+          </model-viewer>
+        </div>
+      </div>
+    </div>
+    <div class="container relative md:hidden flex flex-col mb-4 justify-center">
+      <HeadingSecondary
+        v-bind="section1.heading"
+      />
+      <Content>
+        Your vehicle for exploring and
+        building immersive realities.
+      </Content>
+    </div>
+  </div>
 </section>
 <!-- Section 1 -->
 
@@ -831,6 +876,7 @@
 </template>
 
 <script>
+import { ref, onMounted } from 'vue'
 import Heading from '@/components/atoms/Heading.vue'
 import HeadingSecondary from '@/components/atoms/HeadingSecondary.vue'
 import Hero from '@/components/organisms/Hero.vue'
@@ -840,6 +886,9 @@ import Tag from '@/components/atoms/Tag.vue'
 import TagSecondary from '@/components/atoms/TagSecondary.vue'
 import Content from '@/components/atoms/Content.vue'
 import Disclosure from '@/components/atoms/Disclosure.vue'
+import Picture from '@/components/atoms/Picture.vue'
+import '@google/model-viewer'
+
 export default {
   components: {
     Hero,
@@ -850,9 +899,16 @@ export default {
     Tag,
     TagSecondary,
     Content,
-    Disclosure
+    Disclosure,
+    Picture
   },
   setup () {
+    const modelViewer = ref(null)
+
+    onMounted(() => {
+
+    })
+
     const bgPrimary = {
       imageMobile: '/assets/backgrounds/lines-mobile.webp',
       imageTablet: '/assets/backgrounds/lines-tablet.webp',
@@ -920,8 +976,19 @@ export default {
       section3,
       bgPrimary,
       bgSecondary,
-      bgGrid
+      bgGrid,
+      modelViewer
     }
   }
 }
 </script>
+
+<style>
+  model-viewer {
+    --poster-color: transparent;
+    --progress-mask: transparent;
+    --progress-bar: transparent;
+    --progress-bar-height: 0;
+    --ar-button-display: none;
+  }
+</style>

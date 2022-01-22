@@ -24,7 +24,6 @@
         img-class="max-w-xs md:max-w-md object-contain mx-auto md:mx-0"
       />
 
-      <!-- <ModelViewer v-if="showModelViewer" :poster="img" /> -->
     </div>
   </div>
   <div class="container relative md:hidden flex flex-col mb-4 justify-center">
@@ -42,14 +41,12 @@
 import HeadingSecondary from '@/components/atoms/HeadingSecondary.vue'
 import Content from '@/components/atoms/Content.vue'
 import Picture from '@/components/atoms/Picture.vue'
-import ModelViewer from '@/components/atoms/ModelViewer.vue'
 
 export default {
   components: {
     HeadingSecondary,
     Content,
-    Picture,
-    ModelViewer
+    Picture
   },
   props: {
     heading: {
